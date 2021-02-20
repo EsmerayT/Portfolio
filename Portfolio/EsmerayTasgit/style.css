@@ -31,6 +31,7 @@ body {
   }
 
   .topnav .logo:hover {
+
     border-bottom: 3px solid rgb(219, 205, 205);
   }
   
@@ -59,6 +60,7 @@ body {
       right: 0;
       top: 0;
     }
+    
     .topnav.responsive a {
       float: none;
       display: block;
@@ -70,7 +72,7 @@ body {
   /* GALLERY */
 
 .middle-content {
-    margin-top: 80px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -84,8 +86,20 @@ body {
 .gallery-container .image {
     width: 400px;
     height: 245px;
-    margin: 30px 10px;
+    margin: 45px 10px;
 }
+
+a {
+    color: darkgrey;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
 .static {
     position:absolute;
     background: white;
@@ -97,16 +111,20 @@ body {
 
   /* TOPSHADOW */ 
   
-  .overlay  {
+  /* .overlay  {
     background: linear-gradient(to bottom, rgb(15, 15, 15) 20%,rgba(0,0,0,0) 100%);
     height: 200px;
     overflow: hidden;
     position: fixed;
+    position: absolute;
     width: 100%; 
-    z-index:5; }
+    z-index:5; } */
 
-    .background_about {
-        width: 1050px;
-        height: 1000px;
+     /* Bio */ 
+
+    #Bio {
+        margin-top: 80px;
+        width: 1280px;
+        height: 689px;
         background-color: whitesmoke;
     }
