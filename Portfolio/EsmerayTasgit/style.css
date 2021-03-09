@@ -4,7 +4,7 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 500vh;
+    height: 350vh;
   }
 
   /* NAVBAR */
@@ -39,6 +39,14 @@ body {
   nav.scroll a {
     color: darkgray;
   }
+
+  nav.scroll .bio {
+    color: black;
+    text-decoration: underline;
+  }
+
+ 
+
 
   nav.scroll a:hover {
     color: black;
@@ -122,7 +130,7 @@ body {
   #werk {
     background-color: black;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 80px;
   }
 
 
@@ -167,6 +175,31 @@ a:hover {
   /* BIO */
 
   #Bio{
-    height: 250vh;
+    height: 100vh;
     background-color:lightgray;
+    color: black;
+    /* padding-top: 60px; */
+  }
+
+  .bio_foto {
+    padding: 100px 0 0 80px;
+  }
+
+  .bio_text {
+    position: absolute;
+  }
+
+ 
+
+  
+
+  #Contact{
+    height: 50vh;
+    background-color: black;
+
+  }
+
+  #Footer {
+    height: 50vh;
+    background-color: lightgray;
   }

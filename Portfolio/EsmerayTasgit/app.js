@@ -11,5 +11,5 @@ function myFunction() {
 
 window.onscroll = () => {
   const nav = document.querySelector('#navbar');
-  if(this.scrollY <= 980) nav.className = ''; else nav.className = 'scroll'; 
+  if(this.scrollY <= 1000 || this.scrollY >= 1700) nav.className = ''; else nav.className = 'scroll'; 
 };
