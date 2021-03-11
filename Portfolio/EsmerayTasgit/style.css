@@ -1,3 +1,10 @@
+@font-face{
+  font-family:"pobla-bold";
+  src:url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("woff"),
+  url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("opentype"),
+  url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("truetype");
+}
+
 body {
     margin: 0;
     background-color: black;
@@ -36,6 +43,8 @@ body {
     background-color: lightgray;
   }
 
+  
+
   nav.scroll a {
     color: darkgray;
   }
@@ -51,6 +60,10 @@ body {
   nav.scroll a:hover {
     color: black;
     text-decoration: underline;
+  }
+
+  nav.blue {
+    background-color: #1737c0; 
   }
 
 
@@ -178,28 +191,76 @@ a:hover {
     height: 100vh;
     background-color:lightgray;
     color: black;
-    /* padding-top: 60px; */
+    padding-top: 60px;
   }
 
   .bio_foto {
     padding: 100px 0 0 80px;
   }
 
+  .bio_title {
+    position: absolute;
+    font-size: 50px;
+    width: 500px;
+    left: 42px;
+    margin-top: 26px;
+  }
+
   .bio_text {
     position: absolute;
+    right: 150px;
+    width: 300px;
+    margin-top: 80px;
+    font-size: 15px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    /* color: #1737c0;  */
+    letter-spacing: -0.05rem;
+    line-height: 1.2;
+
+
+    /* font-family:"pobla-bold"; 
+    font-weight: bold;  */
+
+  }
+
+  
+
+  /* .bio_lievelings {
+
+    position: absolute;
+    right: 100px;
+    width: 350px;
+    margin-top: 420px;
+    font-size: 10px;
+    line-height: 2;
+  } */
+
+  mark{
+    background-color: #ff4520;
+    opacity: 90%;
   }
 
  
+.werkervaring {
+  position: absolute;
 
+  margin-top: 100px;
+
+}
   
 
   #Contact{
     height: 50vh;
-    background-color: black;
+    background-color: #1737c0; 
 
   }
 
   #Footer {
     height: 50vh;
     background-color: lightgray;
+
   }
+
+
+
