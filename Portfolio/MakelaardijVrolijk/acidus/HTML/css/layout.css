@@ -55,7 +55,7 @@ a:focus, a:hover, a:active {
   right: -15px;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #583d90;
   content: " ";
 }
 
@@ -105,19 +105,19 @@ h4 {
 
 ::selection {
   color: #fff;
-  background: #17bed2;
+  background: #583d90;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #17bed2;
+  background: #583d90;
   text-shadow: none;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #17bed2;
+  background: #583d90;
   text-shadow: none;
 }
 
@@ -163,7 +163,7 @@ h4 {
   left: -20px;
   font-size: 60px;
   display: inline-block;
-  color: #17bed2;
+  color: #583d90;
   content: '“';
 }
 
@@ -217,14 +217,14 @@ fieldset[disabled] .btn-theme {
 
 .btn-base-bg {
   color: #fff;
-  background: #17bed2;
+  background: #583d90;
   border-color: transparent;
   border-width: 0;
 }
 
 .btn-base-bg:hover, .btn-base-bg:focus, .btn-base-bg.focus {
   color: #fff;
-  background: #63cbd7;
+  background: #583d90;
   border-color: transparent;
 }
 
@@ -370,7 +370,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .navbar-toggle:hover .toggle-icon {
-  background: #17bed2;
+  background: #583d90;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -379,7 +379,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon:before, .header .navbar-toggle:hover .toggle-icon:after {
   width: 21px;
   height: 1px;
-  background: #17bed2;
+  background: #583d90;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -454,7 +454,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #583d90;
   content: " ";
 }
 
@@ -1140,4 +1140,13 @@ fieldset[disabled] .btn-theme {
 /* De sterke punten van Makelaardij Vrolijk */
 .col-sm-2{
  margin-left: 30px;
+}
+
+/* #Vrolijk {
+  height: 100vh;
+} */
+
+#Contact {
+  height: 90vh;
+
 }

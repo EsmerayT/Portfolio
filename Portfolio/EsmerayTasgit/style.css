@@ -5,29 +5,18 @@
   url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("truetype");
 }
 
+
+
+/* @font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot"); src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff") format("woff"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.svg#Suisse Intl") format("svg"); } */
+
 body {
     margin: 0;
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    height: 350vh;
+    height: auto;
   }
-
-  /* NAVBAR */
-  
-  /* .topnav {
-    overflow: hidden;
-    background-color: black;
-    display: flex;
-    float: right;
-    padding-left: 1000px;
-    position: sticky;
-    top: 0;
-    z-index: 99;
-  } */
-
-
   nav {
     overflow: hidden;
     width: 100%;
@@ -37,33 +26,46 @@ body {
     z-index: 99;
   }
 
-  
+  /* NAV GRAY */
 
-  nav.scroll {
+  nav.gray {
     background-color: lightgray;
+    transition-duration: 0.2s;
   }
 
-  
-
-  nav.scroll a {
+  nav.gray a {
     color: darkgray;
   }
 
-  nav.scroll .bio {
+  /* nav.scroll .werk {
+    color: darkgray;
+    text-decoration: underline;
+  } */
+
+  nav.gray .bio {
     color: black;
     text-decoration: underline;
   }
 
- 
-
-
-  nav.scroll a:hover {
+  nav.gray a:hover {
     color: black;
     text-decoration: underline;
   }
+
+  /* NAV BLUE */
 
   nav.blue {
-    background-color: #1737c0; 
+    background-color: #002da7;
+    transition-duration: 0.2s;
+  }
+
+  nav.blue a {
+    color: #657fc8;
+  }
+
+  nav.blue .bio {
+    color: white;
+    text-decoration: underline;
   }
 
 
@@ -82,6 +84,7 @@ body {
   .topnav a {
     float: right;
     display: block;
+    align-content: right;
     color: whitesmoke;
     text-align: center;
     padding: 30px 30px;
@@ -94,6 +97,7 @@ body {
     text-decoration: underline;
   }
 
+
   .logo{
     margin-left: 10px;
   }
@@ -105,15 +109,18 @@ body {
   .topnav a.active > .logo {
     float: left;
     background-color: black;
-
   }
   
   .topnav .icon {
     display: none;
   }
+
+
+/*=============== 600px ===============*/
+
   
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
@@ -130,10 +137,33 @@ body {
     
     .topnav.responsive a {
       float: none;
-      display: block;
+      display: inline-block;
+      /* display: block; */
       text-align: left;
     }
   }
+
+ @media screen and (max-width: 600px) {
+    .logo {
+      position: relative;
+      width: 65%;
+      left: 60px;
+    } 
+  }
+
+
+/*=============== 480px ===============*/
+
+
+  @media screen and (max-width: 480px) {
+    .logo {
+      position: relative;
+      width: 70%;
+      left: 40px;
+    }
+  }
+
+
 
 
 
@@ -244,23 +274,64 @@ a:hover {
  
 .werkervaring {
   position: absolute;
-
   margin-top: 100px;
-
 }
   
 
   #Contact{
     height: 50vh;
-    background-color: #1737c0; 
-
+    background-color: #002da7;
   }
 
   #Footer {
-    height: 50vh;
-    background-color: lightgray;
+    padding-top: 20px;
+    height: 40vh;
+    background-color:black;
+    /* background-color: lightgray; */
+    color: darkgray;
+    /* background-color: black; */
+  }
+
+  #Footer > h1 {
+    padding-left: 55px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+    line-height: 0px;
+  }
+
+  #Footer a {
+    padding-left: 55px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+    line-height: 0px;
 
   }
+
+  .contact_img {
+    padding: 20px 0px 0px 40px;
+  }
+
+
+
+
+
+
+
+
+
+  .opleidingen > h2 {
+    position: absolute;
+    padding-top: 55px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+
+  }
+
+
+
 
 
 
