@@ -1,0 +1,493 @@
+@font-face{
+  font-family:"pobla-bold";
+  src:url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("woff"),
+  url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("opentype"),
+  url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("truetype");
+}
+
+
+
+/* @font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot"); src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff") format("woff"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.svg#Suisse Intl") format("svg"); } */
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+  }
+
+  nav {
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+
+  /* NAV GRAY */
+
+  nav.gray {
+    background-color: lightgray;
+    transition-duration: 0.2s;
+  }
+
+  nav.gray a {
+    color: darkgray;
+  }
+
+  /* nav.scroll .werk {
+    color: darkgray;
+    text-decoration: underline;
+  } */
+
+  nav.gray .bio {
+    color: black;
+    text-decoration: underline;
+  }
+
+  nav.gray a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  /* NAV BLUE */
+
+  nav.blue {
+    /* background-color: #002da7; */
+    background: rgb(233,186,179);
+background: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 100%);
+    transition-duration: 0.2s;
+  }
+
+  nav.blue a {
+    color: #657fc8;
+  }
+
+  nav.blue .bio {
+    color: white;
+    text-decoration: underline;
+  }
+
+
+  /* .topnav.active {
+    overflow: hidden;
+    background-color: lightgray;
+    display: flex;
+    float: right;
+    padding-left: 1000px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  } */
+
+
+  .topnav a {
+    float: right;
+    display: block;
+    align-content: right;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    color: darkgrey;
+    text-decoration: underline;
+  }
+
+
+  .logo{
+    margin-left: 10px;
+  }
+
+ .logo:hover {
+    border-bottom: 3px solid rgb(219, 205, 205);
+  }
+  
+  .topnav a.active > .logo {
+    float: left;
+    background-color: black;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* GALLERY */
+
+  #werk {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+
+.middle-content {
+    text-align: center;
+}
+
+.gallery-container {
+    /* max-width:2000px; */
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.bio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+
+.gallery-container .image {
+    width: 400px;
+    height: 245px;
+    margin: 30px 10px;
+}
+
+a {
+    color: darkgrey;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.static {
+    position:absolute;
+    background: white;
+  }
+  
+  .static:hover {
+    opacity:0;
+  }
+
+  /* BIO */
+
+  #Bio{
+    height: 100vh;
+    background-color:lightgray;
+    color: black;
+    padding-top: 60px;
+  }
+
+  .bio_foto {
+    padding: 100px 0 0 80px;
+  }
+
+  .bio_title {
+    position: absolute;
+    font-size: 3.1rem;
+    width: 45%;
+    left: 42px;
+    margin-top: 26px;
+  }
+
+  .bio_text {
+    /* position: absolute; */
+   
+    right: 100px;
+    width: 425px;
+    margin-top: 200px;
+    font-size: 20px;
+    /* font-family: Century Gothic;
+    font-weight: bold; */
+    /* color: #1737c0;  */
+    letter-spacing: -0.05rem;
+    line-height: 32px;
+    font-family: Poppins,sans-serif;
+
+
+    /* font-family:"pobla-bold"; 
+    font-weight: bold;  */
+
+  }
+
+  
+
+  /* .bio_lievelings {
+
+    position: absolute;
+    right: 100px;
+    width: 350px;
+    margin-top: 420px;
+    font-size: 10px;
+    line-height: 2;
+  } */
+
+  mark{
+    /* background-color: #ff4520; */
+    opacity: 90%;
+
+    /* position: absolute; */
+  }
+
+ 
+.werkervaring {
+  position: absolute;
+  margin-top: 100px;
+}
+  
+
+  #Contact{
+    height: 70vh;
+    /* background-color: #002da7; */
+background: rgb(238,186,174);
+background: linear-gradient(160deg, rgba(238,186,174,1) 0%, rgba(148,187,233,1) 100%);
+   
+  }
+
+  #Contact > h2{
+    padding-top: 55px;
+   
+  }
+
+  
+
+  #Footer {
+    padding-top: 20px;
+    height: 20vh;
+    background-color:black;
+    /* background-color: lightgray; */
+    color: darkgray;
+    /* background-color: black; */
+  }
+
+  #Footer > h1 {
+    padding-left: 55px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+    line-height: 0px;
+  }
+
+  #Footer a {
+    padding-left: 55px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+    line-height: 0px;
+
+  }
+
+  .contact_img {
+    padding: 20px 0px 0px 40px;
+  }
+
+
+
+  .opleidingen > h2 {
+    position: absolute;
+    padding-top: 55px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+    margin-left: 50px;
+    /* color: black; */
+  }
+
+
+
+
+
+
+  .text_icons {
+    display: flex;
+    width: 50%;
+  }
+
+  .text_icons > p {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-family: none;
+    font-weight: bold;
+    color: blue;
+  }
+
+
+
+
+
+
+/*=============== 600px ===============*/
+
+  
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: inline-block;
+    /* display: block; */
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    position: relative;
+    width: 65%;
+    left: 60px;
+  } 
+}
+
+
+/*=============== 480px ===============*/
+
+
+@media screen and (max-width: 480px) {
+  .logo {
+    position: relative;
+    width: 70%;
+    left: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bio_foto {
+    width: 70%;
+    height: 20%;
+  }
+  .bio_title {
+    width: 90%;
+    font-size: 35px;
+  }
+  .bio_text {
+    margin: 40px 0 0 30px;
+    width: 90%;
+    font-size: 16px;
+
+}
+
+@media screen and (max-width: 480px) {
+  .topnav.responsive a {
+    float: none;
+    display: inline-block;
+    /* display: block; */
+    text-align: left;
+
+  }
+}
+
+
+
+/* .hover-title  {
+color: #1737c0;
+font-family: Sporting Grotesque;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: -0.05rem;
+font-size: 1.5rem;
+box-sizing: border-box;
+text-align: left;
+display: inline;
+pointer-events: visible;
+cursor: pointer;
+}
+
+
+
+sup {
+  bottom: 1.6em;
+  font-style: italic;
+  font-weight: 400;
+  font-family: "GT Super", Icons;
+  margin-left: 0.2rem;
+  letter-spacing: 0.06em;
+}
+
+sub, sup {
+  font-size: 0.3em;
+  position: relative;
+  vertical-align: baseline;
+}
+
+
+.jat {
+  width: 40%;
+  position: absolute;
+  margin: 320px 0px 0px 20px;
+  display: inline-block;
+} */
+
+
+
+.div-block-10 {
+-webkit-text-size-adjust: 100%;
+font-family: Poppins,sans-serif;
+color: #1a1b1f;
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+box-sizing: border-box;
+padding-top: 0;
+text-align: left;
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
+justify-self: auto;
+width: 40%;
+}
+
+.service-name-text {
+-webkit-text-size-adjust: 100%;
+font-family: Poppins,sans-serif;
+box-sizing: border-box;
+display: inline-block;
+margin-right: 10px;
+margin-bottom: 10px;
+padding-right: 10px;
+padding-left: 10px;
+border: 1px solid darkgray;
+border-radius: 8px;
+background-color: none;
+background-image: none;
+background-size: auto;
+background-repeat: repeat;
+background-attachment: scroll;
+opacity: 1;
+color: #000;
+font-weight: 500;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 16px;
+line-height: 42px;
+text-align: left;
+}
