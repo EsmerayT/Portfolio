@@ -5,8 +5,6 @@
   url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("truetype");
 }
 
-
-
 /* @font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot"); src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff") format("woff"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.svg#Suisse Intl") format("svg"); } */
 
 body {
@@ -117,13 +115,6 @@ background: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 
   .topnav .icon {
     display: none;
   }
-
-
-
-
-
-
-
 
 
 
