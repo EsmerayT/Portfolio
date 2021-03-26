@@ -1,13 +1,4 @@
-@font-face{
-  font-family:"pobla-bold";
-  src:url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("woff"),
-  url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("opentype"),
-  url("https://dafonttop.com/wp-data/p/538/8538/file/Pobla-Bold.otf") format("truetype");
-}
-
-/* @font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot"); src: url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff") format("woff"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.svg#Suisse Intl") format("svg"); } */
-
-body {
+  body {
     margin: 0;
     background-color: black;
     color: white;
@@ -15,6 +6,8 @@ body {
     width: 100%;
     height: auto;
   }
+
+  /*=============== NAVBAR ===============*/
 
   nav {
     overflow: hidden;
@@ -25,7 +18,21 @@ body {
     z-index: 99;
   }
 
-  /* NAV GRAY */
+  .topnav a {
+    float: right;
+    display: block;
+    color: whitesmoke;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    color: darkgrey;
+    text-decoration: underline;
+  }
+
+ /*=============== NAVBAR GRAY ===============*/
 
   nav.gray {
     background-color: lightgray;
@@ -35,11 +42,6 @@ body {
   nav.gray a {
     color: darkgray;
   }
-
-  /* nav.scroll .werk {
-    color: darkgray;
-    text-decoration: underline;
-  } */
 
   nav.gray .bio {
     color: black;
@@ -51,12 +53,12 @@ body {
     text-decoration: underline;
   }
 
-  /* NAV BLUE */
+ /*=============== NAVBAR BLUE / GRADIENT ===============*/
 
   nav.blue {
     /* background-color: #002da7; */
     background: rgb(233,186,179);
-background: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 100%);
+    background: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 100%);
     transition-duration: 0.2s;
   }
 
@@ -69,41 +71,13 @@ background: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 
     text-decoration: underline;
   }
 
-
-  /* .topnav.active {
-    overflow: hidden;
-    background-color: lightgray;
-    display: flex;
-    float: right;
-    padding-left: 1000px;
-    position: sticky;
-    top: 0;
-    z-index: 99;
-  } */
-
-
-  .topnav a {
-    float: right;
-    display: block;
-    align-content: right;
-    color: whitesmoke;
-    text-align: center;
-    padding: 30px 30px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  .topnav a:hover {
-    color: darkgrey;
-    text-decoration: underline;
-  }
-
+   /*=============== LOGO ===============*/
 
   .logo{
     margin-left: 10px;
   }
 
- .logo:hover {
+  .logo:hover {
     border-bottom: 3px solid rgb(219, 205, 205);
   }
   
@@ -116,9 +90,7 @@ background: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 
     display: none;
   }
 
-
-
-  /* GALLERY */
+  /*=============== WERK ===============*/
 
   #werk {
     background-color: black;
@@ -127,55 +99,49 @@ background: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 
   }
 
 
-.middle-content {
+  .middle-content {
     text-align: center;
-}
+  }
 
-.gallery-container {
-    /* max-width:2000px; */
+  .gallery-container {
     padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+  }
 
-
-.bio-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}
-
-
-
-.gallery-container .image {
+  .gallery-container .image {
     width: 400px;
     height: 245px;
     margin: 30px 10px;
-}
+  }
 
-a {
+  /*---- LINK ---- */
+
+  a {
     color: darkgrey;
     text-decoration: none;
     padding-left: 10px;
     font-size: 18px;
-}
+  }
 
-a:hover {
+  a:hover {
     text-decoration: underline;
   }
 
-.static {
+  /*---- GIF ---- */
+
+  .static {
     position:absolute;
-    background: white;
+    /* background: white; */
   }
-  
+
   .static:hover {
     opacity:0;
   }
 
-  /* BIO */
+
+ /*=============== BIO ===============*/
 
   #Bio{
     height: 100vh;
@@ -184,9 +150,30 @@ a:hover {
     padding-top: 60px;
   }
 
+  .bio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .bio_foto {
     padding: 100px 0 0 80px;
   }
+
+  .smiley {
+    position: absolute;
+    top: 212%;
+    left: 29.5%;
+    width: 130px;
+    height: 130px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+  }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
   .bio_title {
     position: absolute;
@@ -197,73 +184,85 @@ a:hover {
   }
 
   .bio_text {
-    /* position: absolute; */
-   
-    right: 100px;
-    width: 425px;
-    margin-top: 200px;
-    font-size: 20px;
-    /* font-family: Century Gothic;
-    font-weight: bold; */
-    /* color: #1737c0;  */
+    width: 420px;
+    margin: 260px 0 0 20px;
+    font-size: 15px;
     letter-spacing: -0.05rem;
     line-height: 32px;
     font-family: Poppins,sans-serif;
-
-
-    /* font-family:"pobla-bold"; 
-    font-weight: bold;  */
-
   }
-
-  
-
-  /* .bio_lievelings {
-
-    position: absolute;
-    right: 100px;
-    width: 350px;
-    margin-top: 420px;
-    font-size: 10px;
-    line-height: 2;
-  } */
 
   mark{
     /* background-color: #ff4520; */
+    background-color: #eaff00;
     opacity: 90%;
-
-    /* position: absolute; */
   }
 
- 
-.werkervaring {
-  position: absolute;
-  margin-top: 100px;
-}
+  /*=============== BIO / CV ===============*/
+
+  .werkervaring {
+    position: absolute;
+    margin-top: 100px;
+  }
+
+  .contact_img {
+    padding: 20px 0px 0px 40px;
+  }
+
+  .opleidingen > h2 {
+    position: absolute;
+    padding-top: 55px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+    margin-left: 50px;
+    /* color: black; */
+  }
+
+  .skill-container {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    padding-top: 0;
+    text-align: left;
+    justify-self: auto;
+    width: 40%;
+    }
+    
+    .skill {
+    font-family: Poppins,sans-serif;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 0 10px 0 10px;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    opacity: 1;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 42px;
+    }
   
+/*=============== CONTACT ===============*/
 
   #Contact{
     height: 70vh;
     /* background-color: #002da7; */
-background: rgb(238,186,174);
-background: linear-gradient(160deg, rgba(238,186,174,1) 0%, rgba(148,187,233,1) 100%);
-   
+    background: rgb(238,186,174);
+    background: linear-gradient(160deg, rgba(238,186,174,1) 0%, rgba(148,187,233,1) 100%);
   }
 
   #Contact > h2{
     padding-top: 55px;
-   
   }
 
+  /*=============== FOOTER ===============*/
   
-
   #Footer {
     padding-top: 20px;
     height: 20vh;
     background-color:black;
-    /* background-color: lightgray; */
     color: darkgray;
-    /* background-color: black; */
   }
 
   #Footer > h1 {
@@ -280,48 +279,7 @@ background: linear-gradient(160deg, rgba(238,186,174,1) 0%, rgba(148,187,233,1) 
     font-family: Century Gothic;
     font-weight: lighter;
     line-height: 0px;
-
   }
-
-  .contact_img {
-    padding: 20px 0px 0px 40px;
-  }
-
-
-
-  .opleidingen > h2 {
-    position: absolute;
-    padding-top: 55px;
-    font-size: 20px;
-    font-family: Century Gothic;
-    font-weight: lighter;
-    margin-left: 50px;
-    /* color: black; */
-  }
-
-
-
-
-
-
-  .text_icons {
-    display: flex;
-    width: 50%;
-  }
-
-  .text_icons > p {
-    display: inline-block;
-    font-size: 1.5rem;
-    line-height: 1;
-    font-family: none;
-    font-weight: bold;
-    color: blue;
-  }
-
-
-
-
-
 
 /*=============== 600px ===============*/
 
@@ -356,6 +314,9 @@ background: linear-gradient(160deg, rgba(238,186,174,1) 0%, rgba(148,187,233,1) 
     width: 65%;
     left: 60px;
   } 
+  .smiley {
+    display: none;
+  }
 }
 
 
@@ -380,11 +341,13 @@ background: linear-gradient(160deg, rgba(238,186,174,1) 0%, rgba(148,187,233,1) 
     font-size: 35px;
   }
   .bio_text {
-    margin: 40px 0 0 30px;
+    margin: 40px 0 0 10px;
     width: 90%;
-    font-size: 16px;
-
-}
+    font-size: 14px;
+  }
+  .smiley {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -397,7 +360,23 @@ background: linear-gradient(160deg, rgba(238,186,174,1) 0%, rgba(148,187,233,1) 
   }
 }
 
+/*=============== ? ===============*/
 
+  /* .text_icons {
+    display: flex;
+    width: 50%;
+  }
+
+  .text_icons > p {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-family: none;
+    font-weight: bold;
+    color: blue;
+  } */
+
+/*=============== ICONS TEXT ===============*/
 
 /* .hover-title  {
 color: #1737c0;
@@ -412,8 +391,6 @@ display: inline;
 pointer-events: visible;
 cursor: pointer;
 }
-
-
 
 sup {
   bottom: 1.6em;
@@ -439,47 +416,3 @@ sub, sup {
 } */
 
 
-
-.div-block-10 {
--webkit-text-size-adjust: 100%;
-font-family: Poppins,sans-serif;
-color: #1a1b1f;
-font-size: 16px;
-line-height: 28px;
-font-weight: 400;
-box-sizing: border-box;
-padding-top: 0;
-text-align: left;
-grid-column-start: 1;
-grid-column-end: 3;
-grid-row-start: 1;
-grid-row-end: 2;
-justify-self: auto;
-width: 40%;
-}
-
-.service-name-text {
--webkit-text-size-adjust: 100%;
-font-family: Poppins,sans-serif;
-box-sizing: border-box;
-display: inline-block;
-margin-right: 10px;
-margin-bottom: 10px;
-padding-right: 10px;
-padding-left: 10px;
-border: 1px solid darkgray;
-border-radius: 8px;
-background-color: none;
-background-image: none;
-background-size: auto;
-background-repeat: repeat;
-background-attachment: scroll;
-opacity: 1;
-color: #000;
-font-weight: 500;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-size: 16px;
-line-height: 42px;
-text-align: left;
-}

@@ -95,3 +95,14 @@ window.onscroll = () => {
 
 
 
+// DISPLAY SMILEY
+
+// function displaySmiley() {
+//   const smiley = document.querySelector('.smiley'); {
+//     if (window.innerWidth == 1280) {
+//       smiley.className = '';
+//     } else {
+//       nav.className = 'blue';
+//     }
+//   }
+// };
