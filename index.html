@@ -6,11 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
-    <!-- <link href="your-project-dir/font-css/LineIcons.css" rel="stylesheet"> -->
-    <!-- <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     <!-- <script src="path/to/vanilla.js"></script> -->
+
+    <link href="your-project-dir/font-css/LineIcons.css" rel="stylesheet">
+    <!-- or -->
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
+
     <script src="./app.js"></script>
     <link rel="shortcut icon" href="./src/img/icons/pc.png" />
     <title>Esmeray Tasgit</title>
@@ -23,6 +33,7 @@
         <div class="topnav" id="myTopnav">
             <a class="werk" href="#werk">Werk</a>
             <a class="bio" href="#Bio">Bio</a>
+            <a class="cv" href="#CV">CV</a>
             <a class="contact" href="#Contact">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
                 <i class="fa fa-bars"></i>
@@ -43,32 +54,33 @@
             <div class="image">
                 <img class="static" src="./src/werk/1.png" alt="Esser Design" width="400px" height="245px">
                 <img class="active" src="./src/werk/gif_1.gif" width="400px" height="245px">
-                <p>Esser Design <a href="">esserdesign.co.uk</a></p>
+                <p>Esser Design <a class="image-link" href="">esserdesign.co.uk</a></p>
             </div>
             <div class="image">
                 <img class="static" src="./src/werk/2.png" alt="Esser Design" width="400px" height="245px">
                 <img class="active" src="./src/werk/gif_2.gif" width="400px" height="245px">
-                <p>Bazen Brouwerij <a href="">bazenbrouwerij.nl</a></p>
+                <p>Bazen Brouwerij <a class="image-link" href="">bazenbrouwerij.nl</a></p>
             </div>
             <div class="image">
-                <img class="static" src="./src/werk/8.png" alt="Esser Design" width="400px" height="245px">
+                <img class="static" src="./src/werk/3.png" alt="Esser Design" width="400px" height="245px">
                 <img class="active" src="./src/werk/gif_3.gif" width="400px" height="245px">
-                <p>TechGrounds <a href="">techgrounds.nl</a></p>
+                <p>TechGrounds <a class="image-link" href="">techgrounds.nl</a></p>
             </div>
             <div class="image">
                 <img class="static" src="./src/werk/4.png" alt="Esser Design" width="400px" height="245px">
                 <img class="active" src="./src/werk/gif_4.gif" width="400px" height="245px">
-                <p>Makelaardij Vrolijk <a href="">makelaardijvrolijk.nl</a></p>
+                <p>Makelaardij Vrolijk <a class="image-link" href="">makelaardijvrolijk.nl</a></p>
             </div>
             <div class="image">
                 <img class="static" src="./src/werk/5.png" alt="Esser Design" width="400px" height="245px">
                 <img class="active" src="./src/werk/gif_5.gif" width="400px" height="245px">
-                <p>Black Currant Magazine <a href="">blackcurrantmag.com</a></p>
+                <p>Black Currant Magazine <a class="image-link" href="">blackcurrantmag.com</a></p>
             </div>
             <div class="image">
+                <!-- <img class="static" src="https://urbanhollywood411.com/wp-content/uploads/2020/10/Netflix-homepage-tablet.png" alt="Esser Design" width="400px" height="245px"> -->
                 <img class="static" src="./src/werk/6.png" alt="Esser Design" width="400px" height="245px">
                 <img class="active" src="./src/werk/gif_6.gif" width="400px" height="245px">
-                <p>Esmeray Tasgit <a href="">esmeraytasgit.com</a></p>
+                <p>Esmeray Tasgit <a class="image-link" href="">esmeraytasgit.com</a></p>
             </div>
         </div>
     </section>
@@ -78,85 +90,84 @@
         <div class="bio-container">
 
 
-            <h1 class="bio_title">Hi! Ik ben Esmeray, allround creative en altijd bezig met creëren.</h1>
+            <h1 class="bio_title">Hi! Ik ben Esmeray, allround creative en <br />altijd bezig met creëren.</h1>
 
-            <img class="bio_foto" src="./src/img/photo_smiley.png" alt="" width="50%">
+            <img class="bio_foto" src="./src/img/rondje.png" alt="" width="50%">
 
 
-            <p class="bio_text">Ik ben afgestudeerd aan Academie Artemis te Amsterdam,
+            <!-- <p class="bio_text">Ik ben afgestudeerd aan Academie Artemis te Amsterdam,
                 met de <mark>Bachelor Allround Design</mark>. Wat vormgeving betreft,<br /> ben ik een <mark>pixel
                     perfectionist</mark>.
                 Naast vormgeving gaat mijn interesse ook uit naar het interactief maken ervan, coderen!
                 <br />Ik heb dan ook een opleiding tot <mark>front-end developer</mark> afgerond. Zo weet ik al jouw
                 wensen te vertalen naar een <mark>stijlvolle en
-                professionele website.</mark> Dit alles, snel online, maar toch persoonlijk geregeld.
+                    professionele website.</mark> Dit alles, snel online, maar toch persoonlijk geregeld.
                 <mark>Enthousiast? Ik wel!</mark> Wellicht kan ik iets voor jou betekenen. Bekijk mijn
                 porftolio en <mark>neem gerust contact met mij op :)</mark>
+            </p> -->
+
+<div class="bio-info">
+            <p class="bio_text">Ik ben afgestudeerd aan Academie Artemis te Amsterdam,
+                met de <b>Bachelor Allround Design.</b> Wat vormgeving betreft,<br /> ben ik een <b>pixel
+                perfectionist.</b>
+                Naast vormgeving gaat mijn interesse ook uit naar het interactief maken ervan, coderen!
+                <br />Ik heb dan ook een opleiding tot <b>front-end developer</b> afgerond. Zo weet ik al jouw
+                wensen te vertalen naar een <b>stijlvolle en
+                professionele website.</b> Dit alles, snel online, maar toch persoonlijk geregeld.
+                <b>Enthousiast? Ik wel!</b> Wellicht kan ik iets voor jou betekenen. Bekijk mijn
+                porftolio en neem gerust contact met mij op <b>:)</b>
             </p>
-
-            <img class="smiley" src="./src/img/smiley.png" alt="">
-
-            <!-- <div class="rotate"><img width="1674" height="1674" width_o="1674" height_o="1674"
-                    data-src="https://freight.cargo.site/t/original/i/ffeb8979f7adda225afb6c9ad3d89c3ef8db8e32118e3e013abb45d3ef99b8be/smile-76.png"
-                    data-mid="87289590" border="0" data-scale="12" data-draggable="" data-icon-mode=""
-                    data-draggable-id="draggable_490"
-                    style="cursor: move; width: 80.0064px; height: 80.0064px; transition-duration: initial;"
-                    class="image-zoom scroll-transition-fade"
-                    src="//freight.cargo.site/w/150/i/ffeb8979f7adda225afb6c9ad3d89c3ef8db8e32118e3e013abb45d3ef99b8be/smile-76.png">
-            </div> -->
-
+    </div>
+    <!-- <div class="skill-container">
+        <div class="skill">UI Design</div>
+        <div class="skill">UX&nbsp;Design</div>
+        <div class="skill">Adobe Suite</div>
+        <div class="skill">React</div>
+        <div class="skill">HTML/CSS</div>
+        <div class="skill">Bootstrap</div>
+        <div class="skill">Sass</div>
+    </div> -->
 
 
-            <!-- <div class="jat">
-            <img src="./src/img/icons/bom.png" alt=""><div class="hover-title">Ik ben afgestudeerd aan Academie Artemis<sup>TE AMSTERDAM </sup>
-            <img src="./src/img/icons/pc.png" alt="">met de bachelor <sup>ALLROUND DESIGN</sup> 
-            <div class="hover-title"><img src="./src/img/icons/muis.png" alt=""><a href="Fink-s-Co" rel="history">packaging</a>,<sup>&amp;
-                    LABELS&nbsp;</sup></div>
-            <div class="hover-title"><img src="./src/img/icons/ober.png" alt=""><a href="Simplify" rel="history">websites</a>,<sup>WWW.</sup>
-            </div>
-            <div class="hover-title">
-                <div class="hover-title"><img src="./src/img/icons/pc boos.png" alt=""> and other visual <a href="The-Annual"
-                        rel="history">experiences</a><sup>ETC.&nbsp;</sup></div>
-                <div class="hover-title"><small>︎</small>for <a href="Ladygroove" rel="history">good
-                        people</a><sup>YOU?</sup></div>
-                <div class="hover-title"><small>︎</small>with even <a href="Simplify" rel="history">better
-                        ideas</a>.<sup>&amp; IDEALS &nbsp;</sup></div>
-                <div class="hover-title"><small>︎</small><a href="Work-1" rel="history">Look around</a>.<div
-                        class="hover-title">
-                        <div class="hover-title"><sup>LURK&nbsp;</sup></div>
-                    </div><small>︎</small><a href="About" rel="history">Stay awhile</a>.<div class="hover-title">
-                        <div class="hover-title">
-                            <div class="hover-title">
-                                <div class="hover-title"><sup>ENJOY</sup><br>
-                                    <br>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
+            <!-- <img class="smiley" src="./src/img/smiley.png" alt="">  -->
 
         </div>
 
     </section>
 
     <!-- CONTACT -->
-    <section id="Contact">
+    <section id="CV">
 
 
         <!-- <img src="./src/img/Schermafbeelding 2021-03-10 om 15.44.04.png" alt=""> -->
-        <div class="opleidingen">
-            <h2>Opleidingen<br>TechGrounds // 2020 - heden / Front-end development HTML, CSS, Sass, Javascript,
+        <!-- <div class="opleidingen"> -->
+        <div class="edu">
+
+            <p class="opleidingen">
+                2020 - 2021 / TechGrounds <br> Front-end development / HTML, CSS, Sass, Javascript,
+                React, Bootstrap, Wordpress<br><br>
+                2014 - 2018 / Acadmie Artemis<br>Allround Design / conceptontwikkeling,<br>visueel marketing, vormgeving, trendforcasting
+            </p>  
+            <!-- <hr> -->
+            <p class="werkervaring">
+                2014 - heden / Villa Augustus <br> Floormanager / Personeel aansturen,
+                inventariseren, klachtenbehandeling<br><br>
+                2018 - 2020 / Bitter & Real<br> Barista / Bereiden van kwalitatief hoog
+                waardige koffie - latte art<br><br>
+                2014 - 2016 / Designers-United<br> Graphic Designer / Online magazine &
+                promotiemateriaal, zowel conceptueel
+                als grafisch             
+            </p>
+
+        </div>
+        <!-- <h2>Opleidingen<br>TechGrounds // 2020 - heden / Front-end development HTML, CSS, Sass, Javascript,
                 React, Bootstrap & Wordpress<br>
                 Academie Artemis // 2010 - 2014 / HBO Allround Vormgeving conceptontwikkeling,
                 trend forecasting, vormgeving, visueel marketing
-            </h2>
+            </h2> -->
         </div>
-        <!-- <img class="blur" src="https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/5fab71ff13c6867bfe7c2fbd_webflow%20-%20shape%201.png" width="80%" alt=""> -->
-        <div class="skill-container">
+
+        <!-- <div class="skill-container">
             <div class="skill">UI Design</div>
             <div class="skill">UX&nbsp;Design</div>
             <div class="skill">Adobe Suite</div>
@@ -164,21 +175,47 @@
             <div class="skill">HTML/CSS</div>
             <div class="skill">Bootstrap</div>
             <div class="skill">Sass</div>
+        </div> -->
+
+
+
+
+
+    </section>
+
+    <section id="Contact">
+        <div class="footer-container">
+            <!-- <div class="footer-logo-contact"> -->
+            <!-- <img class="footer-logo" src="./src/img/LogoEsmerayWit.png" alt="Logo"> -->
+            <div class="footer-contact">
+                <a class="contact">+31 6 57 94 59 41</a><br>
+                <a class="contact" href="mailto:estagit@gmail.com">estasgit@gmail.com</a>
+            </div>
+            <div class="footer-socials">
+            </div>
+          
+            <!-- <div class="footer-media"> -->
+            <div class="footer-socials">
+                <!-- <i class="lni lni-linkedin-original"></i> -->
+                <a href="https://www.linkedin.com/in/esmeray-tasgit-a9125a12a/" target="_blank">LinkedIn</a>
+                <!-- <i class="lni lni-github-original"></i> -->
+                <a href="https://github.com/EsmerayT" target="_blank">Github</a>
+          
+                <!-- <i class="lni lni-instagram-original"></i> -->
+                <a href="https://www.instagram.com/esmeraytasgit/" target="_blank">Instagram</a>
+                <!-- <i class="lni lni-facebook"></i> -->
+                <a href="https://www.facebook.com/esmeray.tasgit" target="_blank">Facebook</a>
+            </div>
+
+            <!-- <div class="footer-socials">
+            </div>
+            <div class="footer-socials">
+            </div> -->
+           
         </div>
-
-
-
+        <!-- <p class="footer-copyright">© Esmeray Tasgit</p> -->
+        <!-- <p class="footer-copyright">© Esmeray Tasgit</p> -->
     </section>
-
-    <section id="Footer">
-        <!-- <img class="contact_img" src="./src/img/contact.png" alt="" width="50%"> -->
-        <h1>+31 6 57 94 59 41</h1>
-        <a href="mailto:estagit@gmail.com">estasgit@gmail.com</a>
-
-
-    </section>
-
-
 </body>
 
 </html>
@@ -186,3 +223,7 @@
 
 
 <div class="menu-icons">
+
+
+
+    
