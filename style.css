@@ -421,6 +421,21 @@ body {
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /*=============== 82em (1312px) ===============*/
 @media screen and (min-width:82em) {
   body {
@@ -536,7 +551,7 @@ body {
     background-color: black;
     height: 100vh;
     padding-bottom: 10rem;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
   }
 
   /* #werk {
@@ -647,7 +662,7 @@ body {
   }
 
   .bio_foto {
-    padding: 20rem 0 0 5rem;
+    padding: 10rem 0 0 5rem;
   }
 
   .smiley {
@@ -746,9 +761,9 @@ body {
   /*=============== BIO / CV ===============*/
 
   #CV{
-    height: 75vh;
+    height: 85vh;
     background-color: #002da7;
-    padding: 4rem 5rem 12rem;
+    padding: 0.5rem 0rem 0rem 7rem;
   }
 
   /* .edu {
@@ -772,18 +787,18 @@ body {
     font-family: Poppins,sans-serif;
     width: 45%;
     height: 100%;
-    font-size: 3rem;
-    padding: 0px 0 0 50px;
+    font-size: 2.7rem;
+    padding-bottom: 0rem 0 0 0;
     line-height: 5rem;
     flex-wrap: wrap;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 12rem 0 0rem 0rem;
   }
 
   /*=============== CONTACT ===============*/
 
   #Contact {
     /* padding-top: 20px; */
-    height: 25vh;
+    height: 15vh;
     background-color:black;
     color: darkgray;
   }
