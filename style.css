@@ -1747,19 +1747,73 @@ body {
   nav {
     width: 200%;
   }
+
+  .topnav a {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: inline-block;
     margin-right: 0;
-  }
-  .topnav a {
-    /* margin-right: 5.3rem; */
-    padding: 4rem 2rem 4rem 2rem;
     font-size: 2.5rem;
+    padding: 4rem 2rem 4rem 2rem;
   }
-  .topnav a.active {
+
+  .topnav.responsive.active {
+    /* display: none; */
     float: left;
     background-color: black;
+  }
+
+  .topnav.responsive a {
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 4rem 2.4rem 4rem 2.4rem;
+    float: left;
+  }
+
+  .topnav a:hover {
+    color: darkgrey;
+    text-decoration: underline;
+  }
+
+  /*=============== NAVBAR GRAY ===============*/
+
+  nav.gray {
+    background-color: lightgray;
+    transition-duration: 0.2s;
+  }
+
+  nav.gray .responsive a {
+    color: darkgray;
+  }
+
+  nav.gray .responsive .bio {
+    color: black;
+    text-decoration: underline;
+  }
+
+  nav.gray a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+ /*=============== NAVBAR BLUE / GRADIENT ===============*/
+
+  nav.blue {
+    background-color: #002da7;
+  }
+
+  nav.blue .responsive a {
+    color: #657fc8;
+    /* color: whitesmoke; */
+  }
+
+  nav.blue .responsive .cv {
+    color: white;
+    text-decoration: underline;
   }
 }
 
