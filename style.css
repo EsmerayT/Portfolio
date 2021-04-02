@@ -410,32 +410,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*=============== 82em (1312px) ===============*/
 @media screen and (min-width:82em) {
   body {
@@ -886,4 +860,1061 @@ body {
 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*=============== 62em (1312px) ===============*/
+ @media screen and (min-width:62em) and (max-width:82em)  {
+  body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+  }
+
+  /*=============== NAVBAR ===============*/
+
+  nav {
+    overflow: hidden;
+    width: auto;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .topnav a {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+
+  /* .topnav a {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 5rem 5rem;
+    text-decoration: none;
+    font-size: 3rem;
+  } */
+
+  .topnav a:hover {
+    color: darkgrey;
+    text-decoration: underline;
+  }
+
+
+ /*=============== NAVBAR GRAY ===============*/
+
+  nav.gray {
+    background-color: lightgray;
+    transition-duration: 0.2s;
+  }
+
+  nav.gray a {
+    color: darkgray;
+  }
+
+  nav.gray .bio {
+    color: black;
+    text-decoration: underline;
+  }
+
+  nav.gray a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+ /*=============== NAVBAR BLUE / GRADIENT ===============*/
+
+  nav.blue {
+    background-color: #002da7;
+  }
+
+  nav.blue a {
+    color: #657fc8;
+    /* color: whitesmoke; */
+  }
+
+  nav.blue .cv {
+    color: white;
+    text-decoration: underline;
+  }
+
+
+
+   /*=============== LOGO ===============*/
+
+  /* .logo{
+    margin-left: 10px;
+  } */
+
+  .logo{
+    margin: 0 0 0 1rem;
+    width: 30%;
+  }
+
+  .logo:hover {
+    border-bottom: 3px solid rgb(219, 205, 205);
+  }
+
+  .topnav a.active > .logo {
+    float: left;
+    background-color: black;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  /*=============== WERK ===============*/
+
+  #werk {
+    background-color: black;
+    height: 100vh;
+    padding-bottom: 5rem;
+    padding-top: 0.5rem;
+  }
+
+  /* #werk {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  } */
+
+
+  .middle-content {
+    text-align: center;
+  }
+
+  /* .gallery-container {
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+
+  .gallery-container {
+    padding-bottom: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* .gallery-container .image {
+    width: 400px;
+    height: 245px;
+    margin: 30px 10px;
+  } */
+
+  .gallery-container .image {
+    /* width: 400px;
+    height: 245px; */
+    margin: 6rem 0.5rem -6rem;
+  }
+
+  /*---- LINK ---- */
+
+  /* .image-link {
+    color: darkgrey;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 18px;
+  } */
+
+  .image-link {
+    color: darkgrey;
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+  .image > p {
+    font-size: 1rem;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /*---- GIF ---- */
+
+  img.static {
+    width: 25rem;
+    height: 14.48rem;
+  }
+
+  .static {
+    position:absolute;
+  }
+
+  .static:hover {
+    opacity:0;
+  }
+
+  img.active {
+    width: 25rem;
+    height: 14.48rem;
+  }
+
+
+
+
+
+ /*=============== BIO ===============*/
+
+  /* #Bio{
+    height: 100vh;
+    background-color:lightgray;
+    color: black;
+    padding-top: 60px;
+  }   */
+
+  #Bio{
+    height: 100vh;
+    background-color:lightgray;
+    color: black;
+    padding-bottom: 3rem;
+  }
+
+  .bio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .bio_foto {
+    width: 45%;
+    height: 35%;
+    /* padding: 15rem 0 0 -2rem; */
+    margin: 11rem 0 0 ;
+  }
+
+  /* .bio_title {
+    position: absolute;
+    font-size: 3rem;
+    width: 35%;
+    left: 15rem;
+    letter-spacing: -0.28rem;
+    margin-top: 13.1rem;
+    font-weight: 650;
+    line-height: 2.5rem;
+  } */
+
+
+    .bio_title {
+    position: absolute;
+    font-size: 3.5rem;
+    width: 35%;
+    left: 6rem;
+    letter-spacing: -0.28rem;
+    margin-top: 7rem;
+    font-weight: 650;
+    line-height: 3rem;
+  }
+
+
+  
+  .bio_text {
+    width: 24rem;
+    margin: 18rem 0 0 2rem;
+    font-size: 0.9rem;
+    letter-spacing: -0.05rem;
+    line-height: 1.9rem;
+    font-family: Poppins,sans-s erif;
+  }
+
+
+
+
+  /* .bio_text {
+    width: 50rem;
+    margin: 40rem 0 0 3rem;
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+    line-height: 3rem;
+    font-family: Poppins,sans-serif;
+  } */
+
+
+  /*=============== BIO / CV ===============*/
+
+  #CV{
+    height: 60vh;
+    background-color: #002da7;
+    padding: 2rem 3rem 7rem;
+  }
+
+  /* .edu {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins,sans-serif;
+    width: 45%;
+    height: 100%;
+    font-size: 25px;
+    padding: 0px 0 0 50px;
+    line-height: 35px;
+    flex-wrap: wrap;
+    margin-top: -20px;
+  } */
+
+
+  .edu {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    font-family: Poppins,sans-serif;
+    width: 45%;
+    height: 100%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    flex-wrap: wrap;
+    margin: 3.5rem 0 0rem 0;
+  }
+
+  /*=============== CONTACT ===============*/
+
+  #Contact {
+    /* padding-top: 20px; */
+    height: 15vh;
+    background-color:black;
+    color: darkgray;
+  }
+
+
+  /* .footer-container {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+  } */
+
+
+  .footer-container {
+    /* margin-top:1rem; */
+    padding: 2.5rem 0 0 0rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+
+  /* .footer-contact {
+    font-size: 35px;
+    font-family: Poppins,sans-serif;
+    line-height: 35px;
+    text-decoration: underline;
+  } */
+
+  .footer-contact {
+    font-size: 2rem;
+    font-family: Poppins,sans-serif;
+    line-height: 2rem;
+    text-decoration: underline;
+  }
+
+  .footer-socials {
+    font-size: 1.4rem;
+    line-height: 6rem;
+    font-family: Poppins,sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+  .footer-socials > a {
+    display: inline-block;
+    margin: 0 4rem 0 0;
+    text-decoration: none;
+    color: darkgray;
+  }
+
+  .footer-socials a:hover {
+
+    text-decoration: underline;
+  }
+
+  /* .footer-socials-2 {
+    width: 130px;
+    font-size: 18px;
+    line-height: 35px;
+    font-family: Poppins,sans-serif;
+
+  } */
+
+  .contact {
+    color: darkgray;
+  }
+
+ i {
+   color: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 100%);
+   width: 20%;
+   padding-right: 8px;
+ }
+  .footer-copyright {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Poppins,sans-serif;
+    font-size: 11px;
+    padding: 0 0px 0px 20px;
+    margin-top: -10px;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============== 43em (1312px) ===============*/
+@media screen and (min-width:43em) and (max-width:62em)  {
+  body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+  }
+
+  /*=============== NAVBAR ===============*/
+
+  nav {
+    overflow: hidden;
+    width: auto;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .topnav a {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+
+  /* .topnav a {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 5rem 5rem;
+    text-decoration: none;
+    font-size: 3rem;
+  } */
+
+  .topnav a:hover {
+    color: darkgrey;
+    text-decoration: underline;
+  }
+
+
+ /*=============== NAVBAR GRAY ===============*/
+
+  nav.gray {
+    background-color: lightgray;
+    transition-duration: 0.2s;
+  }
+
+  nav.gray a {
+    color: darkgray;
+  }
+
+  nav.gray .bio {
+    color: black;
+    text-decoration: underline;
+  }
+
+  nav.gray a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+ /*=============== NAVBAR BLUE / GRADIENT ===============*/
+
+  nav.blue {
+    background-color: #002da7;
+  }
+
+  nav.blue a {
+    color: #657fc8;
+    /* color: whitesmoke; */
+  }
+
+  nav.blue .cv {
+    color: white;
+    text-decoration: underline;
+  }
+
+
+
+   /*=============== LOGO ===============*/
+
+  /* .logo{
+    margin-left: 10px;
+  } */
+
+  .logo{
+    margin: 0 0 0 5rem;
+    width: 30%;
+  }
+
+  .logo:hover {
+    border-bottom: 3px solid rgb(219, 205, 205);
+  }
+
+  .topnav a.active > .logo {
+    float: left;
+    background-color: black;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  /*=============== WERK ===============*/
+
+  #werk {
+    background-color: black;
+    height: 100vh;
+    padding-bottom: 5rem;
+    padding-top: 0.5rem;
+  }
+
+  /* #werk {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  } */
+
+
+  .middle-content {
+    text-align: center;
+  }
+
+  /* .gallery-container {
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+
+  .gallery-container {
+    padding-bottom: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* .gallery-container .image {
+    width: 400px;
+    height: 245px;
+    margin: 30px 10px;
+  } */
+
+  .gallery-container .image {
+    /* width: 400px;
+    height: 245px; */
+    margin: 6rem 0.5rem -6rem;
+  }
+
+  /*---- LINK ---- */
+
+  /* .image-link {
+    color: darkgrey;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 18px;
+  } */
+
+  .image-link {
+    color: darkgrey;
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+  .image > p {
+    font-size: 1rem;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /*---- GIF ---- */
+
+  img.static {
+    width: 25rem;
+    height: 14.48rem;
+  }
+
+  .static {
+    position:absolute;
+  }
+
+  .static:hover {
+    opacity:0;
+  }
+
+  img.active {
+    width: 25rem;
+    height: 14.48rem;
+  }
+
+
+
+
+
+ /*=============== BIO ===============*/
+
+  /* #Bio{
+    height: 100vh;
+    background-color:lightgray;
+    color: black;
+    padding-top: 60px;
+  }   */
+
+  #Bio{
+    height: 100vh;
+    background-color:lightgray;
+    color: black;
+    padding-bottom: 3rem;
+  }
+
+  .bio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .bio_foto {
+    width: 45%;
+    height: 35%;
+    /* padding: 15rem 0 0 -2rem; */
+    margin: 11rem 0 0 ;
+  }
+
+  /* .bio_title {
+    position: absolute;
+    font-size: 3rem;
+    width: 35%;
+    left: 15rem;
+    letter-spacing: -0.28rem;
+    margin-top: 13.1rem;
+    font-weight: 650;
+    line-height: 2.5rem;
+  } */
+
+
+    .bio_title {
+    position: absolute;
+    font-size: 3.5rem;
+    width: 35%;
+    left: 6rem;
+    letter-spacing: -0.28rem;
+    margin-top: 7rem;
+    font-weight: 650;
+    line-height: 3rem;
+  }
+
+
+  
+  .bio_text {
+    width: 24rem;
+    margin: 18rem 0 0 2rem;
+    font-size: 0.9rem;
+    letter-spacing: -0.05rem;
+    line-height: 1.9rem;
+    font-family: Poppins,sans-s erif;
+  }
+
+
+
+
+  /* .bio_text {
+    width: 50rem;
+    margin: 40rem 0 0 3rem;
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+    line-height: 3rem;
+    font-family: Poppins,sans-serif;
+  } */
+
+
+  /*=============== BIO / CV ===============*/
+
+  #CV{
+    height: 60vh;
+    background-color: #002da7;
+    padding: 2rem 3rem 7rem;
+  }
+
+  /* .edu {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins,sans-serif;
+    width: 45%;
+    height: 100%;
+    font-size: 25px;
+    padding: 0px 0 0 50px;
+    line-height: 35px;
+    flex-wrap: wrap;
+    margin-top: -20px;
+  } */
+
+
+  .edu {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    font-family: Poppins,sans-serif;
+    width: 45%;
+    height: 100%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    flex-wrap: wrap;
+    margin: 3.5rem 0 0rem 0;
+  }
+
+  /*=============== CONTACT ===============*/
+
+  #Contact {
+    /* padding-top: 20px; */
+    height: 15vh;
+    background-color:black;
+    color: darkgray;
+  }
+
+
+  /* .footer-container {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+  } */
+
+
+  .footer-container {
+    /* margin-top:1rem; */
+    padding: 2.5rem 0 0 0rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+
+  /* .footer-contact {
+    font-size: 35px;
+    font-family: Poppins,sans-serif;
+    line-height: 35px;
+    text-decoration: underline;
+  } */
+
+  .footer-contact {
+    font-size: 2rem;
+    font-family: Poppins,sans-serif;
+    line-height: 2rem;
+    text-decoration: underline;
+  }
+
+  .footer-socials {
+    font-size: 1.4rem;
+    line-height: 6rem;
+    font-family: Poppins,sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+  .footer-socials > a {
+    display: inline-block;
+    margin: 0 4rem 0 0;
+    text-decoration: none;
+    color: darkgray;
+  }
+
+  .footer-socials a:hover {
+
+    text-decoration: underline;
+  }
+
+  /* .footer-socials-2 {
+    width: 130px;
+    font-size: 18px;
+    line-height: 35px;
+    font-family: Poppins,sans-serif;
+
+  } */
+
+  .contact {
+    color: darkgray;
+  }
+
+ i {
+   color: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 100%);
+   width: 20%;
+   padding-right: 8px;
+ }
+  .footer-copyright {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Poppins,sans-serif;
+    font-size: 11px;
+    padding: 0 0px 0px 20px;
+    margin-top: -10px;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============== 43em (688px) ===============*/
+@media screen and (max-width:43em) {
+  nav {
+    width: 200%;
+  }
+  .topnav a.icon {
+    float: right;
+    display: inline-block;
+    margin-right: 0;
+  }
+  .topnav a {
+    /* margin-right: 5.3rem; */
+    padding: 4rem 2rem 4rem 2rem;
+    font-size: 2.5rem;
+  }
+  .topnav a.active {
+    float: left;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width:43em) {
+  .logo {
+    position: relative;
+    width: 130%;
+    left: 12.5rem;
+    top: 8rem;
+  }
+}
+
+@media screen and (max-width:43em) {
+  #werk {
+    height: 400vh;
+    padding-top: 1rem;
+    padding-bottom: 25rem;
+  }
+  .gallery-container {
+    width: 100%;
+    /* padding-bottom: 30rem; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+  .gallery-container .image {
+    margin: 0rem 0rem 1rem 0rem;
+  }
+  .middle-content {
+    text-align: center;
+  }
+  .image-link {
+    color: darkgrey;
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: 2rem;
+  }
+  .image > p {
+    font-size: 2rem;
+  }
+  .image > p {
+    width: 200%;
+  }
+  img.static {
+    padding: 0 0.5rem 0 0.5rem;
+    width: 195%;
+    height: 28.85rem;
+  }
+  img.active {
+    padding: 0 0.5rem 0 0.5rem;
+    width: 195%;
+    height: 28.85rem;
+  }
+}
+
+@media screen and (max-width:43em) {
+  #Bio{
+    height: 175vh;
+    width: 200%;
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+  }
+  /* .bio {
+    margin-left:20px;
+  } */
+  .bio_foto {
+    width: 80%;
+    height: 55vh;
+    /* padding-left: 1rem;
+    padding: 5rem 0 0 1rem; */
+    margin-top: 5rem;
+    justify-content: center;
+  }
+  .bio_title {
+    width: 155%;
+    font-size: 4.5rem;
+    margin: 1rem 0 0 4rem;
+    left: 0rem;
+    line-height: 3rem;
+  }
+  .bio_text {
+    justify-content: center;
+    margin-top: 5rem;
+    width: 90%;
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media screen and (max-width:43em) {
+  #CV {
+    height: 230vh;
+    width: 200%;
+    display:flex;
+    justify-content: center;
+    padding: 2.1rem 0 0 0;
+  }
+  .edu  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-top: 5rem;
+    padding-left: 0;
+    font-size: 2.95rem;
+    line-height: 4rem;
+  }
+  .werkervaring {
+    margin: -9.5rem 0 0rem 0;
+  }
+}
+
+  @media screen and (max-width:43em) {
+    #Contact{
+      height: 30vh;
+      width: 190%;
+      padding: 4rem 0 4rem 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* justify-content: center; */
+      /* background: black; */
+    }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+
+  }
+  .footer-contact {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .footer-socials {
+    font-size: 2rem;
+    line-height: 3rem;
+    /* width: 100%; */
+    padding-top: 1rem;
+    padding-right: 0rem;
+  }
+  .footer-socials > a {
+    display: inline-block;
+    margin: 0 2.5rem 0 0;
+    /* color: whitesmoke; */
+  }
+  /* .footer-copyright {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins,sans-serif;
+    font-size: 11px;
+    padding: 20px 20px 20px 0;
+  } */
+}
+
 
