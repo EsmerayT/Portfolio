@@ -1306,6 +1306,38 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=============== 43em (1312px) ===============*/
 @media screen and (min-width:43em) and (max-width:62em)  {
   body {
@@ -1328,14 +1360,15 @@ body {
     z-index: 99;
     display: flex;
     justify-content: flex-end;
+    margin: 1rem -2rem 0 0;
   }
 
   .topnav a {
     display: inline-block;
     color: whitesmoke;
-    padding: 2rem 2rem;
+    padding: 1.5rem 1.5rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   /* .topnav a {
@@ -1398,8 +1431,9 @@ body {
   } */
 
   .logo{
-    margin: 0 0 0 5rem;
-    width: 30%;
+
+    margin: 3rem 0 -4rem 5rem;
+    width: 40%;
   }
 
   .logo:hover {
@@ -1419,7 +1453,7 @@ body {
 
   #werk {
     background-color: black;
-    height: 100vh;
+    height: 90vh;
     padding-bottom: 5rem;
     padding-top: 0.5rem;
   }
@@ -1446,7 +1480,8 @@ body {
     padding-bottom: 30rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
+    margin: 0 -1rem 0 1rem ;
   }
 
   /* .gallery-container .image {
@@ -1458,7 +1493,7 @@ body {
   .gallery-container .image {
     /* width: 400px;
     height: 245px; */
-    margin: 6rem 0.5rem -6rem;
+    margin: 6rem 0.5rem -6rem 1rem;
   }
 
   /*---- LINK ---- */
@@ -1488,8 +1523,8 @@ body {
   /*---- GIF ---- */
 
   img.static {
-    width: 25rem;
-    height: 14.48rem;
+    width: 22rem;
+    height: 12.48rem;
   }
 
   .static {
@@ -1501,8 +1536,8 @@ body {
   }
 
   img.active {
-    width: 25rem;
-    height: 14.48rem;
+    width: 22rem;
+    height: 12.48rem;
   }
 
 
