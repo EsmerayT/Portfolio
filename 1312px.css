@@ -443,3 +443,326 @@ body {
     margin-top: -10px;
 
   }
+
+
+
+
+
+
+
+
+/* DELETE */
+  @media screen and (min-width:62em) and (max-width:82em)  {
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+      height: 100%;
+    }
+  
+  
+    nav {
+      overflow: hidden;
+      width: auto;
+      background-color: black;
+      position: sticky;
+      top: 0;
+      z-index: 99;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .topnav a {
+      display: inline-block;
+      color: whitesmoke;
+      padding: 2rem 2rem;
+      text-decoration: none;
+      font-size: 1.3rem;
+    }
+  
+  
+    .topnav a:hover {
+      color: darkgrey;
+      text-decoration: underline;
+    }
+  
+  
+  
+  
+    nav.gray {
+      background-color: lightgray;
+      transition-duration: 0.2s;
+    }
+  
+    nav.gray a {
+      color: darkgray;
+    }
+  
+    nav.gray .bio {
+      color: black;
+      text-decoration: underline;
+    }
+  
+    nav.gray a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  
+  
+  
+    nav.blue {
+      background-color: #002da7;
+    }
+  
+    nav.blue a {
+      color: #657fc8;
+      /* color: whitesmoke; */
+    } 
+  
+    nav.blue .cv {
+      color: white;
+      text-decoration: underline;
+    }
+  
+  
+  
+  
+  
+  
+  
+    .logo{
+      margin: 0 0 0 1rem;
+      width: 30%;
+    }
+  
+    .logo:hover {
+      border-bottom: 3px solid rgb(219, 205, 205);
+    }
+  
+    .topnav a.active > .logo {
+      float: left;
+      background-color: black;
+    }
+  
+    .topnav .icon {
+      display: none;
+    }
+  
+  
+  
+    #werk {
+      background-color: black;
+      height: 100vh;
+      padding-bottom: 5rem;
+      padding-top: 0.5rem;
+    }
+  
+   
+  
+  
+    .middle-content {
+      text-align: center;
+    }
+  
+    
+  
+    .gallery-container {
+      padding-bottom: 30rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+  
+    .gallery-container .image {
+      margin: 6rem 0.5rem -6rem;
+    }
+  
+  
+  
+  
+  
+    .image-link {
+      color: darkgrey;
+      text-decoration: none;
+      padding-left: 1rem;
+      font-size: 1rem;
+    }
+  
+    .image > p {
+      font-size: 1rem;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+  
+  
+  
+    img.static {
+      width: 25rem;
+      height: 14.48rem;
+    }
+  
+    .static {
+      position:absolute;
+    }
+  
+    .static:hover {
+      opacity:0;
+    }
+  
+    img.active {
+      width: 25rem;
+      height: 14.48rem;
+    }
+  
+  
+  
+  
+    #Bio{
+      height: 100vh;
+      background-color:lightgray;
+      color: black;
+      padding-bottom: 3rem;
+    }
+  
+    .bio-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .bio_foto {
+      width: 45%;
+      height: 35%;
+      margin: 11rem 0 0 ;
+    }
+  
+  
+  
+  
+      .bio_title {
+      position: absolute;
+      font-size: 3.5rem;
+      width: 35%;
+      left: 6rem;
+      letter-spacing: -0.28rem;
+      margin-top: 7rem;
+      font-weight: 650;
+      line-height: 3rem;
+    }
+  
+  
+    
+    .bio_text {
+      width: 24rem;
+      margin: 18rem 0 0 2rem;
+      font-size: 0.9rem;
+      letter-spacing: -0.05rem;
+      line-height: 1.9rem;
+      font-family: Poppins,sans-s erif;
+    }
+  
+  
+  
+  
+  
+  
+    #CV{
+      height: 60vh;
+      background-color: #002da7;
+      padding: 2rem 3rem 7rem;
+    }
+  
+   
+  
+  
+    .edu {
+      display: flex;
+      flex-direction: column;
+      font-family: Poppins,sans-serif;
+      width: 45%;
+      height: 100%;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      flex-wrap: wrap;
+      margin: 3.5rem 0 0rem 0;
+    }
+  
+  
+  
+    #Contact {
+      height: 15vh;
+      background-color:black;
+      color: darkgray;
+    }
+  
+  
+    
+  
+  
+    .footer-container {
+      padding: 2.5rem 0 0 0rem;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+  
+  
+  
+    
+  
+    .footer-contact {
+      font-size: 2rem;
+      font-family: Poppins,sans-serif;
+      line-height: 2rem;
+      text-decoration: underline;
+    }
+  
+    .footer-socials {
+      font-size: 1.4rem;
+      line-height: 6rem;
+      font-family: Poppins,sans-serif;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  
+    .footer-socials > a {
+      display: inline-block;
+      margin: 0 4rem 0 0;
+      text-decoration: none;
+      color: darkgray;
+    }
+  
+    .footer-socials a:hover {
+  
+      text-decoration: underline;
+    }
+  
+    
+    .contact {
+      color: darkgray;
+    }
+  
+   i {
+     color: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 100%);
+     width: 20%;
+     padding-right: 8px;
+   }
+    .footer-copyright {
+      display: flex;
+      justify-content: flex-end;
+      font-family: Poppins,sans-serif;
+      font-size: 11px;
+      padding: 0 0px 0px 20px;
+      margin-top: -10px;
+  
+    }
+  
+  } 
+  
