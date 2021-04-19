@@ -1,0 +1,224 @@
+/*=============== (500px) ===============*/
+@media screen and (max-width: 500px) {
+    nav {
+      width: 100%;
+      overflow: hidden;
+      width: auto;
+      background-color: black;
+      position: sticky;
+      top: 0;
+      z-index: 99;
+      display: flex;
+      justify-content: flex-end;
+      margin: 1rem 0rem 0 0;
+    }
+  
+    .topnav a {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: inline-block;
+      margin-right: 0;
+      font-size: 1.5rem;
+      padding: 2rem 0.5rem 2rem 0.5rem;
+    }
+  
+    .topnav.responsive.active {
+      float: left;
+      background-color: black;
+    }
+  
+    .topnav.responsive a {
+      display: inline-block;
+      color: whitesmoke;
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: 2rem 0.9rem 2rem 0.9rem;
+      float: left;
+    }
+  
+    .topnav a:hover {
+      color: darkgrey;
+      text-decoration: underline;
+    }
+  
+    /*=============== NAVBAR GRAY ===============*/
+  
+     nav.gray {
+      background-color: lightgray;
+      transition-duration: 0.2s;
+    }
+  
+    nav.gray .responsive a {
+      color: darkgray;
+    }
+  
+    nav.gray .responsive .bio {
+      color: black;
+      text-decoration: underline;
+    }
+  
+    nav.gray a:hover {
+      color: black;
+      text-decoration: underline;
+    } 
+  
+    /*=============== NAVBAR BLUE / GRADIENT ===============*/
+  
+     nav.blue {
+      background-color: #002da7;
+    }
+  
+    nav.blue .responsive a {
+      color: #657fc8;
+    } 
+  
+    nav.blue .responsive .cv {
+      color: white;
+      text-decoration: underline;
+    }
+  } 
+  
+  @media screen and (max-width: 500px) {
+    .logo {
+      position: relative;
+      width: 75%;
+      left: 3.5rem;
+      top: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #werk {
+      height: 230vh;
+      padding-top: 2rem;
+    }
+    
+    .gallery-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 4rem;
+    }
+    .gallery-container .image {
+      margin: 0rem 0rem 1rem 0rem;
+    }
+    .middle-content {
+      text-align: center;
+    }
+    .image-link {
+      color: darkgrey;
+      text-decoration: none;
+      padding-left: 1rem;
+      font-size: 1.2rem;
+    }
+    .image > p {
+      font-size: 1.2rem;
+    }
+    .image > p {
+      width: 100%;
+    }
+    img.static {
+      padding: 0 0.5rem 0 0.5rem;
+      width: 95%;
+      height: 14rem;
+    }
+    img.active {
+      padding: 0 0.5rem 0 0.5rem;
+      width: 95%;
+      height: 14rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #Bio {
+      height: 100vh;
+      width: 100%;
+      padding-top: 5rem;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .bio_foto {
+      width: 75%;
+      height: 28vh;
+      margin-top: 5rem;
+      justify-content: center;
+    }
+  
+    .bio_title {
+      width: 100%;
+      font-size: 3rem;
+      margin: 1rem 0 0 1rem;
+      left: 0rem;
+      line-height: 2.2rem;
+    }
+    
+    .bio_text {
+      justify-content: center;
+      margin-top: 3rem;
+      width: 90%;
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #CV {
+      height: 125vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 0rem 0 0 0;
+    }
+    .edu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 90%;
+      margin-top: 5rem;
+      padding-left: 0;
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    .werkervaring {
+      margin: -9.5rem 0 0rem 0;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #Contact {
+      height: 25vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem 0 2rem 1.5rem;
+      margin: 0;
+    }
+    .footer-contact {
+      font-size: 2rem;
+      line-height: 2rem;
+      padding: 0;
+      margin: 0;
+  }
+    .footer-socials {
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      padding-top: 0.5rem;
+      margin: 0;
+  
+    }
+    .footer-socials > a {
+  
+    }
+  }
+  
