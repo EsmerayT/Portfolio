@@ -149,10 +149,11 @@
   
     .bio_title {
       width: 100%;
-      font-size: 2.5rem;
+      font-size: 2.25rem;
       margin: 1rem 0 0 1rem;
+      letter-spacing: -0.2rem;
       left: 0rem;
-      line-height: 2.2rem;
+      line-height: 1.8rem;
     }
     
     .bio_text {
