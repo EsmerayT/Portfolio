@@ -20,7 +20,7 @@
       float: right;
       display: inline-block;
       margin-right: 0;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       padding: 2rem 0.5rem 2rem 0.5rem;
     }
   
@@ -91,8 +91,8 @@
   
   @media screen and (max-width: 500px) {
     #werk {
-      height: 230vh;
-      padding-top: 2rem;
+      height: 250vh;
+      padding: 2rem 0 2rem 0;
     }
     
     .gallery-container {
@@ -149,7 +149,7 @@
   
     .bio_title {
       width: 100%;
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin: 1rem 0 0 1rem;
       left: 0rem;
       line-height: 2.2rem;
@@ -166,11 +166,11 @@
   
   @media screen and (max-width: 500px) {
     #CV {
-      height: 125vh;
+      height: 140vh;
       width: 100%;
       display: flex;
       justify-content: center;
-      padding: 0rem 0 0 0;
+      padding: 0 0 2rem 0;
     }
     .edu {
       display: flex;
