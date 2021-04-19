@@ -150,7 +150,7 @@
     .bio_title {
       width: 80%;
       font-size: 2.25rem;
-      margin: 2rem 0 0 1.7rem;
+      margin: 2rem 0 0 1.5rem;
       letter-spacing: -0.2rem;
       left: 0rem;
       line-height: 1.8rem;
@@ -160,7 +160,7 @@
     .bio_text {
       justify-content: center;
       margin-top: 3rem;
-      width: 90%;
+      width: 85%;
       font-size: 1rem;
       line-height: 2rem;
     }
@@ -181,7 +181,7 @@
       justify-content: center;
       width: 90%;
       margin-top: 5rem;
-      padding-left: 0;
+      padding-left: 0.5rem;
       font-size: 1.5rem;
       line-height: 2rem;
     }
