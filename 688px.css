@@ -1,159 +1,238 @@
-
-
-/*=============== 43em (688px) ===============*/
-@media screen and (min-width:43em) {
+/*=============== (688px) ===============*/
+@media screen and (max-width: 688px) {
     nav {
-      width: 200%;
+      width: 100%;
+      overflow: hidden;
+      width: auto;
+      background-color: black;
+      position: sticky;
+      top: 0;
+      z-index: 99;
+      display: flex;
+      justify-content: flex-end;
+      margin: 1rem 0rem 0 0;
     }
+  
+    .topnav a {
+      display: none;
+    }
+
     .topnav a.icon {
       float: right;
       display: inline-block;
       margin-right: 0;
+      font-size: 1.3rem;
+      padding: 2rem 0.5rem 2rem 0.5rem;
     }
-    .topnav a {
-      /* margin-right: 5.3rem; */
-      padding: 4rem 0rem 0 0rem;
-      font-size: 2.5rem;
-    }
-  }
   
-  @media screen and (min-width:43em) {
+    .topnav.responsive.active {
+      float: left;
+      background-color: black;
+    }
+  
+    .topnav.responsive a {
+      display: inline-block;
+      color: whitesmoke;
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: 2rem 0.9rem 2rem 0.9rem;
+      float: left;
+    }
+  
+    .topnav a:hover {
+      color: darkgrey;
+      text-decoration: underline;
+    }
+  
+    /*=============== NAVBAR GRAY ===============*/
+  
+     nav.gray {
+      background-color: lightgray;
+      transition-duration: 0.2s;
+    }
+  
+    nav.gray .responsive a {
+      color: darkgray;
+    }
+  
+    nav.gray .responsive .bio {
+      color: black;
+      text-decoration: underline;
+    }
+  
+    nav.gray a:hover {
+      color: black;
+      text-decoration: underline;
+    } 
+  
+    /*=============== NAVBAR BLUE / GRADIENT ===============*/
+  
+     nav.blue {
+      background-color: #002da7;
+    }
+  
+    nav.blue .responsive a {
+      color: #657fc8;
+    } 
+  
+    nav.blue .responsive .cv {
+      color: white;
+      text-decoration: underline;
+    }
+  } 
+  
+  @media screen and (max-width: 688px) {
     .logo {
       position: relative;
-      width: 130%;
-      left: 12.5rem;
-      top: 15rem;
+      width: 75%;
+      left: 3.5rem;
+      top: 4rem;
     }
   }
   
-  @media screen and (min-width:43em) {
+  @media screen and (max-width: 688px) {
     #werk {
-      height: 400vh;
-      padding-top: 1rem;
-      padding-bottom: 25rem;
+      height: 250vh;
+      padding: 2rem 0 2rem 0;
     }
+    
     .gallery-container {
       width: 100%;
-      /* padding-bottom: 30rem; */
       display: flex;
       flex-direction: column;
-      margin-top: 10rem;
+      margin-top: 4rem;
     }
+
     .gallery-container .image {
       margin: 0rem 0rem 1rem 0rem;
     }
+
     .middle-content {
       text-align: center;
     }
-    .image > p {
-      width: 200%;
+
+    .image-link {
+      color: darkgrey;
+      text-decoration: none;
+      padding-left: 1rem;
+      font-size: 1.2rem;
     }
+
+    .image > p {
+      font-size: 1.2rem;
+    }
+
+    .image > p {
+      width: 100%;
+    }
+
     img.static {
       padding: 0 0.5rem 0 0.5rem;
-      width: 195%;
-      height: 28.85rem;
+      width: 95%;
+      height: 14rem;
     }
+
     img.active {
       padding: 0 0.5rem 0 0.5rem;
-      width: 195%;
-      height: 28.85rem;
+      width: 95%;
+      height: 14rem;
     }
   }
   
-  @media screen and (min-width:43em) {
-    #Bio{
-      height: 180vh;
-      width: 200%;
-      padding-top: 12rem;
+  @media screen and (max-width: 688px) {
+    #Bio {
+      height: 100vh;
+      width: 100%;
+      padding-top: 5rem;
       display: flex;
       flex-direction: column;
     }
-    /* .bio {
-      margin-left:20px;
-    } */
+  
     .bio_foto {
-      width: 80%;
-      height: 60vh;
-      padding-left: 1rem;
-      padding: 5rem 0 0 1rem;
+      width: 75%;
+      height: 28vh;
+      margin-top: 5rem;
       justify-content: center;
     }
+  
     .bio_title {
-      width: 135%;
-      font-size: 4rem;
-      margin: 1.5rem 0 0 4rem;
-      left: 1rem;
-      line-height: 2.8rem;
+      width: 80%;
+      font-size: 2.25rem;
+      margin: 2rem 0 0 1.5rem;
+      letter-spacing: -0.2rem;
+      left: 0rem;
+      line-height: 1.8rem;
     }
+    
     .bio_text {
       justify-content: center;
-      margin-top: 5rem;
-      width: 90%;
-      font-size: 2rem;
+      margin-top: 3rem;
+      width: 85%;
+      font-size: 1rem;
+      line-height: 2rem;
     }
   }
   
-  @media screen and (min-width:43em) {
+  @media screen and (max-width: 688px) {
     #CV {
-      height: 280vh;
-      width: 200%;
-      display:flex;
+      height: 140vh;
+      width: 100%;
+      display: flex;
       justify-content: center;
-      padding: 3.5rem 0 0 0;
+      padding: 0 0 2rem 0;
     }
-    .edu  {
+
+    .edu {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       width: 90%;
       margin-top: 5rem;
-      padding-left: 0;
+      padding-left: 0.5rem;
+      font-size: 1.5rem;
+      line-height: 2rem;
     }
+
     .werkervaring {
-      margin-top: -12rem;
+      margin: -9.5rem 0 0rem 0;
     }
   }
   
-    @media screen and (min-width:43em) {
-      #Contact{
-        height: 30vh;
-        width: 190%;
-        padding: 5rem 0 5rem 3rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* justify-content: center; */
-        /* background: black; */
-      }
+  @media screen and (max-width: 688px) {
+    #Contact {
+      height: 25vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
     .footer-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding: 2rem 0 2rem 1.5rem;
+      margin: 0;
+    }
+
+    .footer-contact {
+      font-size: 2rem;
+      line-height: 2rem;
       padding: 0;
+      margin: 0;
+    }
+
+    .footer-socials {
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      padding-top: 0.5rem;
+      margin: 0;
+    }
+
+    .footer-socials > a {
   
     }
-    .footer-contact {
-      font-size: 4rem;
-      line-height: 4.5rem;
-    }
-    .footer-socials {
-      font-size: 2rem;
-      line-height: 3rem;
-      /* width: 100%; */
-      padding-top: 1rem;
-      padding-right: 0rem;
-    }
-    .footer-socials > a {
-      display: inline-block;
-      margin: 0 2.5rem 0 0;
-      /* color: whitesmoke; */
-    }
-    /* .footer-copyright {
-      display: flex;
-      justify-content: center;
-      font-family: Poppins,sans-serif;
-      font-size: 11px;
-      padding: 20px 20px 20px 0;
-    } */
   }
+  

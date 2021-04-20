@@ -1,3 +1,4 @@
+@media screen and (max-width: 2650px) and (min-width: 2000px) {
 body {
     margin: 0;
     background-color: black;
@@ -765,4 +766,5 @@ body {
     }
   
   } 
+}
   
