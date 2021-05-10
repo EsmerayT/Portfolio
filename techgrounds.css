@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    font-family: Poppins,sans-s erif;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.tools {
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 0;
+}
+
+.info {
+    width: 70%;
+    font-size: 25px;
+    margin-left: 150px;
+    line-height: 1.2;
+}
+
+img {
+    width: 100%;
+    justify-content: center;
+}
