@@ -26,17 +26,25 @@ h2 {
 .tools {
     font-size: 15px;
     margin-left: 20px;
-    line-height: 0;
+    line-height: 0.3;
 }
 
 .info {
-    width: 70%;
-    font-size: 25px;
+    width: 74%;
+    font-size: 21px;
     margin-left: 150px;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
-img {
-    width: 100%;
+.images {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+img {
+    width: 95%;
+    margin-bottom: 80px;
 }
