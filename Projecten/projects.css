@@ -6,11 +6,11 @@ body {
 
 h1 {
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 h2 {
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 20px;
 }
 
@@ -25,12 +25,19 @@ h2 {
 
 .tools {
     font-size: 15px;
-    margin-left: 20px;
+    margin-left: 30px;
     line-height: 0.3;
 }
 
 .info {
-    width: 74%;
+    width: 65%;
+    font-size: 21px;
+    margin-left: 150px;
+    line-height: 1.5;
+}
+
+.info_tech {
+    width: 72%;
     font-size: 21px;
     margin-left: 150px;
     line-height: 1.5;
@@ -57,7 +64,7 @@ img {
 .weblink > a {
     text-decoration: none;
     color: gray;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 a:hover {
