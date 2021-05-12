@@ -48,3 +48,18 @@ img {
     width: 95%;
     margin-bottom: 80px;
 }
+
+.service {
+    line-height: 0.85;
+    margin-bottom: 50px;
+}
+
+.weblink > a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
