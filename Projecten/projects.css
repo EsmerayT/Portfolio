@@ -1,72 +1,88 @@
 body {
-    background-color: black;
-    font-family: Poppins,sans-s erif;
-    color: white;
+  background-color: black;
+  font-family: Poppins, sans-s erif;
+  color: white;
 }
 
 h1 {
-    font-size: 40px;
-    margin-left: 30px;
+  font-size: 40px;
+  margin-left: 30px;
 }
 
 h2 {
-    margin-left: 30px;
-    font-size: 20px;
+  margin-left: 30px;
+  font-size: 20px;
 }
 
 .content {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .text {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .tools {
-    font-size: 15px;
-    margin-left: 30px;
-    line-height: 0.3;
+  font-size: 15px;
+  margin-left: 30px;
+  line-height: 0.3;
 }
 
 .info {
-    width: 65%;
-    font-size: 21px;
-    margin-left: 150px;
-    line-height: 1.5;
+  width: 65%;
+  font-size: 21px;
+  margin-left: 150px;
+  line-height: 1.5;
 }
 
 .info_tech {
-    width: 72%;
-    font-size: 21px;
-    margin-left: 150px;
-    line-height: 1.5;
+  width: 72%;
+  font-size: 21px;
+  margin-left: 150px;
+  line-height: 1.5;
 }
 
 .images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 img {
-    width: 95%;
-    margin-bottom: 80px;
+  width: 95%;
+  margin-bottom: 80px;
 }
 
 .service {
-    line-height: 0.85;
-    margin-bottom: 50px;
+  line-height: 0.85;
+  margin-bottom: 50px;
 }
 
 .weblink > a {
-    text-decoration: none;
-    color: gray;
-    margin-left: 30px;
+  text-decoration: none;
+  color: gray;
+  margin-left: 30px;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.inprogress {
+  position: absolute;
+  width: 150px;
+  margin-left: 175px;
+  margin-top: 75px;
+  animation: rotateZ 8s linear infinite;
+}
+@keyframes rotateZ {
+  from {
+    transform: rotateZ(0deg);
   }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
