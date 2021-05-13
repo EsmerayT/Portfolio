@@ -37,7 +37,7 @@ nav {
 
 nav.gray {
   background-color: lightgray;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
 }
 
 nav.gray a {
@@ -58,6 +58,7 @@ nav.gray a:hover {
 
 nav.blue {
   background-color: #002da7;
+  transition-duration: 0.4s;
 }
 
 nav.blue a {
