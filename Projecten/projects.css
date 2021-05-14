@@ -86,3 +86,19 @@ a:hover {
     transform: rotateZ(360deg);
   }
 }
+
+.inprogress_spotify {
+  position: absolute;
+  width: 150px;
+  margin-left: 260px;
+  margin-top: -55px;
+  animation: rotateZ 8s linear infinite;
+}
+@keyframes rotateZ {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
