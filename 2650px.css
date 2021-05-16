@@ -326,7 +326,7 @@
     }
 
     #CV {
-      height: 62vh;
+      height: 65vh;
       background-color: #002da7;
       padding: 4rem 5rem 9rem;
     }
@@ -370,7 +370,7 @@
     }
 
     .bio_foto {
-      padding: 7rem 0 0 5rem;
+      padding: 6rem 0 0 5rem;
     }
 
     .bio_title {
@@ -379,7 +379,7 @@
       width: 45%;
       left: 15rem;
       letter-spacing: -0.28rem;
-      margin-top: 11rem;
+      margin-top: 10rem;
       margin-left: -4.5rem;
       font-weight: 650;
       line-height: 4rem;
@@ -387,7 +387,7 @@
   
     .bio_text {
       width: 45rem;
-      margin: 33rem 0 0 3rem;
+      margin: 32rem 0 0 3rem;
       font-size: 1.2rem;
       letter-spacing: -0.05rem;
       line-height: 3rem;
