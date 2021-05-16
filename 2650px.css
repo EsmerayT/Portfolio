@@ -26,7 +26,7 @@
     color: whitesmoke;
     padding: 5rem 5rem;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .topnav a:hover {
@@ -38,7 +38,6 @@
 
   nav.gray {
     background-color: lightgray;
-    transition-duration: 0.2s;
   }
 
   nav.gray a {
@@ -74,7 +73,7 @@
   /*=============== LOGO ===============*/
 
   .logo {
-    margin: -1.5rem 0 0 2rem;
+    margin: -1rem 0 0 2rem;
   }
 
   .logo:hover {
@@ -166,7 +165,8 @@
   }
 
   .bio_foto {
-    padding: 20rem 0 0 5rem;
+    width: 40%;
+    padding: 13rem 0 0 5rem;
   }
 
   .bio_title {
@@ -175,15 +175,15 @@
     width: 45%;
     left: 15rem;
     letter-spacing: -0.28rem;
-    margin-top: 13.1rem;
+    margin-top: 16.1rem;
     font-weight: 650;
     line-height: 5.5rem;
   }
 
   .bio_text {
     width: 50rem;
-    margin: 40rem 0 0 3rem;
-    font-size: 2rem;
+    margin: 43rem 0 0 3rem;
+    font-size: 1.5rem;
     letter-spacing: -0.05rem;
     line-height: 3rem;
     font-family: Poppins, sans-serif;
@@ -201,13 +201,13 @@
     display: flex;
     flex-direction: column;
     font-family: Poppins, sans-serif;
-    width: 45%;
+    width: 40%;
     height: 100%;
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 0px 0 0 50px;
     line-height: 5rem;
     flex-wrap: wrap;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 2.2rem 0 3rem 0;
   }
 
   /*=============== CONTACT ===============*/
@@ -220,7 +220,7 @@
 
   .footer-container {
     /* margin-top:1rem; */
-    padding: 3rem 0 0 5rem;
+    padding: 3rem 0rem 0 0rem;
     display: flex;
     justify-content: space-around;
   }
@@ -240,12 +240,12 @@
     flex-direction: row;
     justify-content: space-between;
     display: block;
-    padding-right: 30rem;
+    padding-right: 0rem;
   }
 
   .footer-socials > a {
     display: inline-block;
-    margin: 0 4rem 0 0;
+    margin: 0 10rem 0 0;
     text-decoration: none;
     color: darkgray;
   }
@@ -258,24 +258,6 @@
     color: darkgray;
   }
 
-  i {
-    color: linear-gradient(
-      11deg,
-      rgba(233, 186, 179, 1) 19%,
-      rgba(149, 188, 227, 1) 100%
-    );
-    width: 20%;
-    padding-right: 8px;
-  }
-  .footer-copyright {
-    display: flex;
-    justify-content: flex-end;
-    font-family: Poppins, sans-serif;
-    font-size: 11px;
-    padding: 0 0px 0px 20px;
-    margin-top: -10px;
-  }
-}
 
 @media screen and (max-width: 2000px) and (min-width: 1900px)  {
 
@@ -393,5 +375,5 @@
       line-height: 3rem;
       font-family: Poppins, sans-serif;
     }
-
+  }
 }
