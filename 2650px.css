@@ -380,7 +380,7 @@
     }
 
     #CV {
-      height: 70vh;
+      height: 65vh;
       background-color: #002da7;
       padding: 4rem 5rem 9rem;
     }
@@ -403,6 +403,24 @@
       padding: 3rem 0 0 0rem;
       display: flex;
       justify-content: space-around;
+    }
+
+    .footer-socials {
+      font-size: 2rem;
+      line-height: 8rem;
+      font-family: Poppins, sans-serif;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      display: block;
+      padding-right: 0rem;
+    }
+
+    .footer-socials > a {
+      display: inline-block;
+      margin: 0 4rem 0 0;
+      text-decoration: none;
+      color: darkgray;
     }
 
 }
