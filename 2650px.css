@@ -1,5 +1,5 @@
 @media screen and (max-width: 2650px) and (min-width: 2000px) {
-body {
+  body {
     margin: 0;
     background-color: black;
     color: white;
@@ -20,14 +20,6 @@ body {
     display: flex;
     justify-content: flex-end;
   }
-/*
-  .topnav a {
-    display: inline-block;
-    color: whitesmoke;
-    padding: 30px 30px;
-    text-decoration: none;
-    font-size: 20px;
-  } */
 
   .topnav a {
     display: inline-block;
@@ -42,8 +34,7 @@ body {
     text-decoration: underline;
   }
 
-
- /*=============== NAVBAR GRAY ===============*/
+  /*=============== NAVBAR GRAY ===============*/
 
   nav.gray {
     background-color: lightgray;
@@ -64,7 +55,7 @@ body {
     text-decoration: underline;
   }
 
- /*=============== NAVBAR BLUE / GRADIENT ===============*/
+  /*=============== NAVBAR BLUE / GRADIENT ===============*/
 
   nav.blue {
     background-color: #002da7;
@@ -80,15 +71,9 @@ body {
     text-decoration: underline;
   }
 
+  /*=============== LOGO ===============*/
 
-
-   /*=============== LOGO ===============*/
-
-  /* .logo{
-    margin-left: 10px;
-  } */
-
-  .logo{
+  .logo {
     margin: -1.5rem 0 0 2rem;
   }
 
@@ -113,23 +98,9 @@ body {
     padding-bottom: 10rem;
   }
 
-  /* #werk {
-    background-color: black;
-    padding-top: 50px;
-    padding-bottom: 80px;
-  } */
-
-
   .middle-content {
     text-align: center;
   }
-
-  /* .gallery-container {
-    padding-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
 
   .gallery-container {
     padding-bottom: 30rem;
@@ -138,26 +109,11 @@ body {
     justify-content: center;
   }
 
-  /* .gallery-container .image {
-    width: 400px;
-    height: 245px;
-    margin: 30px 10px;
-  } */
-
   .gallery-container .image {
-    /* width: 400px;
-    height: 245px; */
     margin: 13rem 1rem -12rem;
   }
 
   /*---- LINK ---- */
-
-  /* .image-link {
-    color: darkgrey;
-    text-decoration: none;
-    padding-left: 10px;
-    font-size: 18px;
-  } */
 
   .image-link {
     color: darkgrey;
@@ -182,11 +138,11 @@ body {
   }
 
   .static {
-    position:absolute;
+    position: absolute;
   }
 
   .static:hover {
-    opacity:0;
+    opacity: 0;
   }
 
   img.active {
@@ -194,22 +150,11 @@ body {
     height: 26.95rem;
   }
 
+  /*=============== BIO ===============*/
 
-
-
-
- /*=============== BIO ===============*/
-
-  /* #Bio{
+  #Bio {
     height: 100vh;
-    background-color:lightgray;
-    color: black;
-    padding-top: 60px;
-  }   */
-
-  #Bio{
-    height: 100vh;
-    background-color:lightgray;
+    background-color: lightgray;
     color: black;
     padding: 10rem 0 -10rem 0;
   }
@@ -230,25 +175,27 @@ body {
     left: 29.5%;
     width: 130px;
     height: 130px;
-    margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    margin: -60px 0 0 -60px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
   }
-  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-  /* .bio_title {
-    position: absolute;
-    font-size: 3.1rem;
-    width: 30%;
-    left: 100px;
-    letter-spacing: -0.28rem;
-    margin-top: 40px;
-    font-weight: 650;
-    line-height: 50px;
-  } */
+  @-moz-keyframes spin {
+    100% {
+      -moz-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
 
   .bio_title {
     position: absolute;
@@ -257,19 +204,9 @@ body {
     left: 15rem;
     letter-spacing: -0.28rem;
     margin-top: 13.1rem;
-    /* font-family: Poppins,sans-serif; */
     font-weight: 650;
     line-height: 5.5rem;
   }
-
-  /* .bio_text {
-    width: 420px;
-    margin: 240px 0 0 20px;
-    font-size: 15px;
-    letter-spacing: -0.05rem;
-    line-height: 30px;
-    font-family: Poppins,sans-s erif;
-  } */
 
   .bio_text {
     width: 50rem;
@@ -277,9 +214,8 @@ body {
     font-size: 2rem;
     letter-spacing: -0.05rem;
     line-height: 3rem;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
   }
-
 
   .skill-container {
     -webkit-text-size-adjust: 100%;
@@ -289,11 +225,11 @@ body {
     text-align: left;
     justify-self: auto;
     width: 35%;
-    }
+  }
 
-    .skill {
-      font-size: 13px;
-    font-family: Poppins,sans-serif;
+  .skill {
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
     display: inline-block;
     margin: 0 10px 10px 0;
     padding: 0 10px 0 10px;
@@ -305,45 +241,25 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 42px;
-    }
+  }
 
-
-  mark{
-    /* background-color: #ff4520; */
-
+  mark {
     background-color: #eaff00;
-    /* background-color: #ff4520; */
     opacity: 90%;
-    /* display:none; */
   }
 
   /*=============== BIO / CV ===============*/
 
-  #CV{
+  #CV {
     height: 65vh;
     background-color: #002da7;
     padding: 4rem 5rem 9rem;
   }
 
-  /* .edu {
-    display: flex;
-    flex-direction: column;
-    font-family: Poppins,sans-serif;
-    width: 45%;
-    height: 100%;
-    font-size: 25px;
-    padding: 0px 0 0 50px;
-    line-height: 35px;
-    flex-wrap: wrap;
-    margin-top: -20px;
-  } */
-
-
   .edu {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     width: 45%;
     height: 100%;
     font-size: 3rem;
@@ -356,19 +272,10 @@ body {
   /*=============== CONTACT ===============*/
 
   #Contact {
-    /* padding-top: 20px; */
     height: 15vh;
-    background-color:black;
+    background-color: black;
     color: darkgray;
   }
-
-
-  /* .footer-container {
-    margin-top:50px;
-    display: flex;
-    justify-content: space-around;
-  } */
-
 
   .footer-container {
     /* margin-top:1rem; */
@@ -377,19 +284,9 @@ body {
     justify-content: space-around;
   }
 
-
-
-
-  /* .footer-contact {
-    font-size: 35px;
-    font-family: Poppins,sans-serif;
-    line-height: 35px;
-    text-decoration: underline;
-  } */
-
   .footer-contact {
     font-size: 3rem;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     line-height: 3rem;
     text-decoration: underline;
   }
@@ -397,14 +294,13 @@ body {
   .footer-socials {
     font-size: 2rem;
     line-height: 8rem;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     display: block;
     padding-right: 30rem;
-}
-
+  }
 
   .footer-socials > a {
     display: inline-block;
@@ -414,357 +310,28 @@ body {
   }
 
   .footer-socials a:hover {
-
     text-decoration: underline;
   }
-
-  /* .footer-socials-2 {
-    width: 130px;
-    font-size: 18px;
-    line-height: 35px;
-    font-family: Poppins,sans-serif;
-
-  } */
 
   .contact {
     color: darkgray;
   }
 
- i {
-   color: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 100%);
-   width: 20%;
-   padding-right: 8px;
- }
+  i {
+    color: linear-gradient(
+      11deg,
+      rgba(233, 186, 179, 1) 19%,
+      rgba(149, 188, 227, 1) 100%
+    );
+    width: 20%;
+    padding-right: 8px;
+  }
   .footer-copyright {
     display: flex;
     justify-content: flex-end;
-    font-family: Poppins,sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 11px;
     padding: 0 0px 0px 20px;
     margin-top: -10px;
-
   }
-
-
-
-
-
-
-
-
-/* DELETE */
-  @media screen and (min-width:62em) and (max-width:82em)  {
-    body {
-      margin: 0;
-      background-color: black;
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      width: 100%;
-      height: 100%;
-    }
-  
-  
-    nav {
-      overflow: hidden;
-      width: auto;
-      background-color: black;
-      position: sticky;
-      top: 0;
-      z-index: 99;
-      display: flex;
-      justify-content: flex-end;
-    }
-  
-    .topnav a {
-      display: inline-block;
-      color: whitesmoke;
-      padding: 2rem 2rem;
-      text-decoration: none;
-      font-size: 1.3rem;
-    }
-  
-  
-    .topnav a:hover {
-      color: darkgrey;
-      text-decoration: underline;
-    }
-  
-  
-  
-  
-    nav.gray {
-      background-color: lightgray;
-      transition-duration: 0.2s;
-    }
-  
-    nav.gray a {
-      color: darkgray;
-    }
-  
-    nav.gray .bio {
-      color: black;
-      text-decoration: underline;
-    }
-  
-    nav.gray a:hover {
-      color: black;
-      text-decoration: underline;
-    }
-  
-  
-  
-    nav.blue {
-      background-color: #002da7;
-    }
-  
-    nav.blue a {
-      color: #657fc8;
-      /* color: whitesmoke; */
-    } 
-  
-    nav.blue .cv {
-      color: white;
-      text-decoration: underline;
-    }
-  
-  
-  
-  
-  
-  
-  
-    .logo{
-      margin: 0 0 0 1rem;
-      width: 30%;
-    }
-  
-    .logo:hover {
-      border-bottom: 3px solid rgb(219, 205, 205);
-    }
-  
-    .topnav a.active > .logo {
-      float: left;
-      background-color: black;
-    }
-  
-    .topnav .icon {
-      display: none;
-    }
-  
-  
-  
-    #werk {
-      background-color: black;
-      height: 100vh;
-      padding-bottom: 5rem;
-      padding-top: 0.5rem;
-    }
-  
-   
-  
-  
-    .middle-content {
-      text-align: center;
-    }
-  
-    
-  
-    .gallery-container {
-      padding-bottom: 30rem;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-  
-    .gallery-container .image {
-      margin: 6rem 0.5rem -6rem;
-    }
-  
-  
-  
-  
-  
-    .image-link {
-      color: darkgrey;
-      text-decoration: none;
-      padding-left: 1rem;
-      font-size: 1rem;
-    }
-  
-    .image > p {
-      font-size: 1rem;
-    }
-  
-    a:hover {
-      text-decoration: underline;
-    }
-  
-  
-  
-    img.static {
-      width: 25rem;
-      height: 14.48rem;
-    }
-  
-    .static {
-      position:absolute;
-    }
-  
-    .static:hover {
-      opacity:0;
-    }
-  
-    img.active {
-      width: 25rem;
-      height: 14.48rem;
-    }
-  
-  
-  
-  
-    #Bio{
-      height: 100vh;
-      background-color:lightgray;
-      color: black;
-      padding-bottom: 3rem;
-    }
-  
-    .bio-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .bio_foto {
-      width: 45%;
-      height: 35%;
-      margin: 11rem 0 0 ;
-    }
-  
-  
-  
-  
-      .bio_title {
-      position: absolute;
-      font-size: 3.5rem;
-      width: 35%;
-      left: 6rem;
-      letter-spacing: -0.28rem;
-      margin-top: 7rem;
-      font-weight: 650;
-      line-height: 3rem;
-    }
-  
-  
-    
-    .bio_text {
-      width: 24rem;
-      margin: 18rem 0 0 2rem;
-      font-size: 0.9rem;
-      letter-spacing: -0.05rem;
-      line-height: 1.9rem;
-      font-family: Poppins,sans-s erif;
-    }
-  
-  
-  
-  
-  
-  
-    #CV{
-      height: 65vh;
-      background-color: #002da7;
-      padding: 2rem 3rem 7rem;
-    }
-  
-   
-  
-  
-    .edu {
-      display: flex;
-      flex-direction: column;
-      font-family: Poppins,sans-serif;
-      width: 45%;
-      height: 100%;
-      font-size: 1.2rem;
-      line-height: 2rem;
-      flex-wrap: wrap;
-      margin: 3.5rem 0 0rem 0;
-    }
-  
-  
-  
-    #Contact {
-      height: 15vh;
-      background-color:black;
-      color: darkgray;
-    }
-  
-  
-    
-  
-  
-    .footer-container {
-      padding: 2.5rem 0 0 0rem;
-      display: flex;
-      justify-content: space-around;
-    }
-  
-  
-  
-  
-    
-  
-    .footer-contact {
-      font-size: 2rem;
-      font-family: Poppins,sans-serif;
-      line-height: 2rem;
-      text-decoration: underline;
-    }
-  
-    .footer-socials {
-      font-size: 1.4rem;
-      line-height: 6rem;
-      font-family: Poppins,sans-serif;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-  }
-  
-  
-    .footer-socials > a {
-      display: inline-block;
-      margin: 0 4rem 0 0;
-      text-decoration: none;
-      color: darkgray;
-    }
-  
-    .footer-socials a:hover {
-  
-      text-decoration: underline;
-    }
-  
-    
-    .contact {
-      color: darkgray;
-    }
-  
-   i {
-     color: linear-gradient(11deg, rgba(233,186,179,1) 19%, rgba(149,188,227,1) 100%);
-     width: 20%;
-     padding-right: 8px;
-   }
-    .footer-copyright {
-      display: flex;
-      justify-content: flex-end;
-      font-family: Poppins,sans-serif;
-      font-size: 11px;
-      padding: 0 0px 0px 20px;
-      margin-top: -10px;
-  
-    }
-  
-  } 
 }
-  
