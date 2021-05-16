@@ -278,6 +278,11 @@
 }
 
 @media screen and (max-width: 2000px) and (min-width: 1900px)  {
+
+  .logo {
+    margin: 1rem 0 0 3.5rem;
+  }
+
   .gallery-container {
     padding-bottom: 30rem;
     display: flex;
