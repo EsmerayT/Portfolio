@@ -251,7 +251,7 @@
   /*=============== BIO / CV ===============*/
 
   #CV {
-    height: 85vh;
+    height: 75vh;
     background-color: #002da7;
     padding: 4rem 5rem 9rem;
   }
@@ -334,4 +334,38 @@
     padding: 0 0px 0px 20px;
     margin-top: -10px;
   }
+}
+
+@media screen and (min-width: 2660px) {
+  .gallery-container {
+    padding-bottom: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery-container .image {
+    margin: 13rem 1rem -12rem;
+  }
+
+    /*---- GIF ---- */
+
+    img.static {
+      width: 60rem;
+      height: 36.95rem;
+    }
+  
+    .static {
+      position: absolute;
+    }
+  
+    .static:hover {
+      opacity: 0;
+    }
+  
+    img.active {
+      width: 60rem;
+      height: 36.95rem;
+    }
+
 }
