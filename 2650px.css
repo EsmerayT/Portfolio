@@ -368,6 +368,12 @@
       height: 21.95rem;
     }
 
+    #CV {
+      height: 70vh;
+      background-color: #002da7;
+      padding: 4rem 5rem 9rem;
+    }
+
     .edu {
       display: flex;
       flex-direction: column;
@@ -376,7 +382,7 @@
       height: 100%;
       font-size: 2.5rem;
       padding: 0px 0 0 50px;
-      line-height: 5rem;
+      line-height: 4rem;
       flex-wrap: wrap;
       margin: 1.5rem 0 1.5rem 0;
     }
