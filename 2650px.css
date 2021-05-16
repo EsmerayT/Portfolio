@@ -352,7 +352,7 @@
     }
 
     .footer-socials {
-      font-size: 2rem;
+      font-size: 1.5rem;
       line-height: 8rem;
       font-family: Poppins, sans-serif;
       display: flex;
@@ -364,7 +364,7 @@
 
     .footer-socials > a {
       display: inline-block;
-      margin: 0 4.5rem 0 0;
+      margin: 0 6.8rem 0 0;
       text-decoration: none;
       color: darkgray;
     }
