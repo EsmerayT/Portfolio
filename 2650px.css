@@ -336,7 +336,7 @@
   }
 }
 
-@media screen and (min-width: 2660px) {
+@media screen and (max-width: 2000px) and (min-width: 1900px)  {
   .gallery-container {
     padding-bottom: 30rem;
     display: flex;
@@ -351,8 +351,8 @@
     /*---- GIF ---- */
 
     img.static {
-      width: 60rem;
-      height: 36.95rem;
+      width: 37rem;
+      height: 21.95rem;
     }
   
     .static {
@@ -364,8 +364,21 @@
     }
   
     img.active {
-      width: 60rem;
-      height: 36.95rem;
+      width: 37rem;
+      height: 21.95rem;
+    }
+
+    .edu {
+      display: flex;
+      flex-direction: column;
+      font-family: Poppins, sans-serif;
+      width: 45%;
+      height: 100%;
+      font-size: 2.5rem;
+      padding: 0px 0 0 50px;
+      line-height: 5rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0 1.5rem 0;
     }
 
 }
