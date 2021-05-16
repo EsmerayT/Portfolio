@@ -78,9 +78,9 @@ nav.blue .cv {
   width: 30%;
 }
 
-.logo:hover {
+/* .logo:hover {
   border-bottom: 3px solid rgb(219, 205, 205);
-}
+} */
 
 .topnav a.active > .logo {
   float: left;
