@@ -169,34 +169,6 @@
     padding: 20rem 0 0 5rem;
   }
 
-  .smiley {
-    position: absolute;
-    top: 212%;
-    left: 29.5%;
-    width: 130px;
-    height: 130px;
-    margin: -60px 0 0 -60px;
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
-  }
-  @-moz-keyframes spin {
-    100% {
-      -moz-transform: rotate(360deg);
-    }
-  }
-  @-webkit-keyframes spin {
-    100% {
-      -webkit-transform: rotate(360deg);
-    }
-  }
-  @keyframes spin {
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-
   .bio_title {
     position: absolute;
     font-size: 8rem;
@@ -215,37 +187,6 @@
     letter-spacing: -0.05rem;
     line-height: 3rem;
     font-family: Poppins, sans-serif;
-  }
-
-  .skill-container {
-    -webkit-text-size-adjust: 100%;
-    box-sizing: border-box;
-    padding-top: 0;
-    margin: -100px 0 0 770px;
-    text-align: left;
-    justify-self: auto;
-    width: 35%;
-  }
-
-  .skill {
-    font-size: 13px;
-    font-family: Poppins, sans-serif;
-    display: inline-block;
-    margin: 0 10px 10px 0;
-    padding: 0 10px 0 10px;
-    border: 1px solid darkgray;
-    border-radius: 8px;
-    opacity: 1;
-    color: black;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 42px;
-  }
-
-  mark {
-    background-color: #eaff00;
-    opacity: 90%;
   }
 
   /*=============== BIO / CV ===============*/
@@ -421,6 +362,31 @@
       margin: 0 4.5rem 0 0;
       text-decoration: none;
       color: darkgray;
+    }
+
+    .bio_foto {
+      padding: 10rem 0 0 5rem;
+    }
+
+    .bio_title {
+      position: absolute;
+      font-size: 5rem;
+      width: 45%;
+      left: 15rem;
+      letter-spacing: -0.28rem;
+      margin-top: 12.5rem;
+      margin-left: -3.5rem;
+      font-weight: 650;
+      line-height: 4rem;
+    }
+  
+    .bio_text {
+      width: 46rem;
+      margin: 30rem 0 0 3rem;
+      font-size: 1.5rem;
+      letter-spacing: -0.05rem;
+      line-height: 3rem;
+      font-family: Poppins, sans-serif;
     }
 
 }
