@@ -150,4 +150,10 @@ a:hover {
     margin-left: 35px;
     line-height: 1.5;
   }
+  .info_tech {
+    width: 85%;
+    font-size: 21px;
+    margin-left: 35px;
+    line-height: 1.5;
+  }
 }
