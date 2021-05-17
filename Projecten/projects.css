@@ -134,3 +134,20 @@ a:hover {
     transform: rotateZ(360deg);
   }
 }
+
+
+
+
+
+@media screen and (max-width: 688px) {
+  .text {
+    display: flex;
+    flex-direction: column;
+  } 
+  .info {
+    width: 85%;
+    font-size: 21px;
+    margin-left: 35px;
+    line-height: 1.5;
+  }
+}
