@@ -257,7 +257,7 @@
   .contact {
     color: darkgray;
   }
-
+}
 
 @media screen and (max-width: 2000px) and (min-width: 1900px)  {
 
@@ -376,4 +376,7 @@
       font-family: Poppins, sans-serif;
     }
   }
-}
+
+
+
+  
