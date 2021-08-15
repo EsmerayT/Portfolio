@@ -52,6 +52,50 @@ h2 {
   margin-top: 20px;
 }
 
+.images_susan {
+  margin-top: 50px;
+}
+
+.susan_img {
+  /* margin-top: -50px; */
+  justify-content: center;
+  width: 90%;
+}
+
+.museum_img {
+  margin-top: -80px;
+}
+
+.museum_img_flow {
+  margin-top: -50px;
+}
+
+.sessun_img {
+  margin: -4px;
+  width: 85%;
+}
+
+.sessun_img_small {
+  width: 50%;
+  margin: 100px 0 100px 0;
+}
+
+.sessun_img_large {
+  width: 110%;
+  margin: 0;
+  padding: 0;
+}
+
+/* SUSAN BIJL IMG */
+
+.susan_img_large {
+  width: 90%;
+}
+
+.susan_img_small {
+  width: 40%;
+}
+
 img {
   width: 95%;
   margin-bottom: 80px;
@@ -158,3 +202,4 @@ a:hover {
     line-height: 1.5;
   }
 }
+
