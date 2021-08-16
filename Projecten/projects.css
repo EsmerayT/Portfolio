@@ -205,5 +205,14 @@ a:hover {
     margin-left: 35px;
     line-height: 1.5;
   }
+  .susan_gif {
+    width: 110%;
+  }
+  .susan_img {
+    width: 105%;
+  }
+  .susan_img_large {
+    width: 130%;
+  }
 }
 
