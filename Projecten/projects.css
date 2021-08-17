@@ -220,5 +220,10 @@ a:hover {
   .susan_img_large {
     width: 130%;
   }
+  .designersgif {
+    width: 60%;
+    margin-top: -100px;
+    margin-bottom: 90px;
+  }
 }
 
