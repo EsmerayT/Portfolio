@@ -250,5 +250,17 @@ a:hover {
     margin-top: -100px;
     margin-bottom: 90px;
   }
+  .nieuws {
+    width: 80%;
+    /* margin-left: 400px; */
+    margin-top: 150px;
+  }
+  
+  .nieuws_1 {
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 65px;
+    margin-bottom: 10px;
+  }
 }
 
